@@ -1,1 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Street Food</title>
+    <!-- logo icon  -->
+     <link rel="icon" type="image/png" href="logo/icons8-street-food-100.png">
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- tailwinds css  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Griffy&display=swap" rel="stylesheet">
+     
+
+<script>
+    module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        creepster: ["Creepster", "cursive"],
+        griffy: ["Griffy", "cursive"],
+      },
+    },
+  },
+};
+</script>
+</head>
+
+<body>
+ 
+
+<!-- TOP BAR -->
+
+<header>
+    <div class="hidden lg:block bg-black text-white">
+  <div class="max-w-7xl mx-auto px-4">
+
+    <div class="flex items-center justify-between h-12">
+
+      <!-- Left -->
+      <div class="flex items-center gap-8 text-sm">
+
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-phone text-orange-400"></i>
+          <span>+1 (800) 123-4567</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-envelope text-orange-400"></i>
+          <span>hello@sarabfood.com</span>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <i class="fa-solid fa-location-dot text-orange-400"></i>
+          <span>42 Flavor Street, NY</span>
+        </div>
+
+      </div>
+
+      <!-- Right -->
+
+      <div class="flex items-center gap-5">
+
+        <div
+          class="bg-red-600 px-5 py-2 rounded-full text-xs font-semibold">
+
+          🔥 FREE DELIVERY TODAY!
+
+        </div>
+
+        <div class="flex gap-3">
+
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 duration-300">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 duration-300">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 duration-300">
+            <i class="fa-brands fa-tiktok"></i>
+          </a>
+
+          <a class="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center hover:bg-red-600 duration-300">
+            <i class="fa-brands fa-youtube"></i>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</div>
+</header>
+<!-- NAVBAR -->
+<nav class="sticky top-0 z-50 bg-white shadow-lg">
+
+  <div class="max-w-7xl mx-auto px-4">
+
+    <div class="navbar py-3">
+
+      <!-- LEFT -->
+
+      <div class="navbar-start">
+
+        <!-- Mobile Menu -->
+
+        <div class="dropdown lg:hidden">
+
+          <label tabindex="0" class="btn btn-ghost">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="w-7 h-7"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor">
+
+              <path stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"/>
+
+            </svg>
+
+          </label>
+
+          <ul tabindex="0"
+            class="menu menu-lg dropdown-content mt-3 z-[100] p-4 shadow bg-white rounded-box w-72">
+
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Menu</a></li>
+            <li><a>Chefs</a></li>
+            <li><a>Reservation</a></li>
+            <li><a>Reviews</a></li>
+            <li><a>Contact</a></li>
+
+            <div class="divider"></div>
+
+            <a class="btn bg-red-600 text-white border-none rounded-xl">
+              Order Now
+            </a>
+
+          </ul>
+
+        </div>
+
+        <!-- Logo -->
+
+        <a href="" class="flex items-center gap-4">
+
+          <div
+            class="w-16 h-16 rounded-full bg-gradient-to-r from-orange-400 to-red-600 flex items-center justify-center text-white text-3xl">
+
+            🍴
+
+          </div>
+
+          <div>
+
+            <h1 class="text-4xl font-black">
+              Hasa<span class="text-red-600">n</span>
+            </h1>
+
+            <p
+              class="text-xs tracking-[5px] text-gray-400 uppercase">
+
+              Fast Food & Restaurant
+
+            </p>
+
+          </div>
+
+        </a>
+
+      </div>
+
+      <!-- CENTER -->
+
+      <div class="navbar-center hidden lg:flex">
+
+        <ul class="menu menu-horizontal gap-2 text-lg font-semibold">
+
+          <li><a class="">Home</a></li>
+          <li><a>About</a></li>
+          <li><a>Menu</a></li>
+          <li><a>Chefs</a></li>
+          <li><a>Reservation</a></li>
+          <li><a>Reviews</a></li>
+          <li><a>Contact</a></li>
+
+        </ul>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="navbar-end gap-3">
+
+        <button
+          class="btn btn-circle btn-ghost hidden sm:flex">
+
+          <i class="fa-solid fa-magnifying-glass text-xl"></i>
+
+        </button>
+
+        <a
+          class="hidden md:flex btn bg-red-600 hover:bg-red-700 border-none text-white rounded-xl px-7">
+
+          <i class="fa-solid fa-bag-shopping"></i>
+
+          Order Now
+
+        </a>
+
+     <button class="btn btn-outline btn-error    text-white border-none rounded-xl px-5">
+    <i class="fa-solid fa-magnifying-glass mr-2"></i>
+    Search
+</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- hero section -->
+ <section class="bg-[#FFF8F1] overflow-hidden">
+  <div class="max-w-7xl mx-auto px-6 lg:px-8">
+
+    <div class="grid lg:grid-cols-2 items-center min-h-[90vh] gap-12">
+
+      <!-- LEFT -->
+
+      <div class="relative z-10">
+
+        <span
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-100 text-red-600 font-semibold mb-6">
+          🔥 Hot & Fresh Everyday
+        </span>
+
+        <h1
+          class="font-black leading-none text-5xl md:text-6xl lg:text-8xl">
+
+          Delicious
+
+          <br>
+
+          <span class="text-red-600">
+            Fast Food
+          </span>
+
+          <br>
+
+          for Every
+
+          <br>
+
+          Moment
+
+        </h1>
+
+        <p
+          class="text-gray-600 mt-8 text-lg leading-9 max-w-xl">
+
+          Experience bold flavors crafted from premium ingredients.
+          From crispy burgers to gourmet pizzas—every bite is an
+          adventure worth savoring.
+
+        </p>
+
+        <!-- Buttons -->
+
+        <div class="flex flex-wrap gap-5 mt-10">
+
+          <a
+            class="btn h-16 px-8 rounded-full bg-red-600 hover:bg-red-700 border-none text-white text-lg">
+
+            🍴 Explore Menu
+
+          </a>
+
+          <a
+            class="flex items-center gap-4 font-bold cursor-pointer">
+
+            <div
+              class="w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center">
+
+              ▶
+
+            </div>
+
+            Watch Our Story
+
+          </a>
+
+        </div>
+
+        <!-- Counter -->
+
+        <div
+          class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16">
+
+          <div>
+
+            <h2
+              class="text-5xl font-black">
+
+              850<span class="text-red-600">+</span>
+
+            </h2>
+
+            <p
+              class="uppercase tracking-[2px] text-gray-500 text-sm">
+
+              Happy Customers
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h2
+              class="text-5xl font-black">
+
+              120<span class="text-red-600">+</span>
+
+            </h2>
+
+            <p
+              class="uppercase tracking-[2px] text-gray-500 text-sm">
+
+              Menu Items
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h2
+              class="text-5xl font-black">
+
+              15<span class="text-red-600">+</span>
+
+            </h2>
+
+            <p
+              class="uppercase tracking-[2px] text-gray-500 text-sm">
+
+              Expert Chefs
+
+            </p>
+
+          </div>
+
+          <div>
+
+            <h2
+              class="text-5xl font-black">
+
+              12<span class="text-red-600">yr</span>
+
+            </h2>
+
+            <p
+              class="uppercase tracking-[2px] text-gray-500 text-sm">
+
+              Experience
+
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT -->
+
+      <div class="relative flex justify-center">
+
+        <!-- Background Text -->
+
+        <h1
+          class="absolute text-[260px] font-black text-black/5 select-none top-1/2 -translate-y-1/2">
+
+          FOOD
+
+        </h1>
+
+        <!-- Glow -->
+
+        <div
+          class="absolute w-[520px] h-[520px] rounded-full bg-orange-300 blur-[120px] opacity-30">
+
+        </div>
+
+        <!-- Circle -->
+
+        <div class="relative w-[520px] h-[520px] rounded-full bg-[#FFE9D5] overflow-hidden flex items-center justify-center shadow-xl">
+
+    <img
+        src="burgers/Everyday_Lifestyle-removebg-preview.png"
+        class="w-[420px] object-contain drop-shadow-2xl"
+        alt="Burger">
+
+</div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+</body>
+
+</html>

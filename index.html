@@ -2,392 +2,363 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Street Food</title>
+  <title>Street Food</title>
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" href="logo/icons8-street-food-100.png">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="logo/icons8-street-food-100.png">
 
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
 
-    <!-- icon -->
-     <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Griffy&display=swap" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&family=Griffy&display=swap" rel="stylesheet">
 
-    <!-- DaisyUI -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet">
+  <!-- DaisyUI -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet">
 
-    <!-- Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Tailwind Custom Config -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        creepster: ['Creepster', 'cursive'],
-                        griffy: ['Griffy', 'cursive'],
-                    },
-                },
-            },
-        }
-    </script>
+  <!-- Tailwind Custom Config -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            creepster: ['Creepster', 'cursive'],
+            griffy: ['Griffy', 'cursive'],
+          },
+        },
+      },
+    }
+  </script>
 
 </head>
 
 <body>
- 
 
-<!-- TOP BAR -->
 
-<div class="bg-black text-white">
-  <div class="max-w-7xl mx-auto px-4">
+  <!-- TOP BAR -->
 
-    <div class="flex flex-col lg:flex-row items-center justify-between gap-3 py-3">
+  <div class="bg-black text-white">
+    <div class="max-w-7xl mx-auto px-4">
 
-      <!-- Left -->
-      <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-xs sm:text-sm">
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-3 py-3">
 
-        <div class="flex items-center gap-2">
-          <i class="fa-solid fa-phone text-orange-400"></i>
-          <span>+1 (800) 123-4567</span>
+        <!-- Left -->
+        <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-xs sm:text-sm">
+
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-phone text-orange-400"></i>
+            <span>+1 (800) 123-4567</span>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-envelope text-orange-400"></i>
+            <span>hello@sarabfood.com</span>
+          </div>
+
         </div>
 
-        <div class="flex items-center gap-2">
-          <i class="fa-solid fa-envelope text-orange-400"></i>
-          <span>hello@sarabfood.com</span>
+        <!-- Right -->
+        <div class="flex items-center gap-20">
+
+          <div class="bg-red-600 px-4 py-1 rounded-full text-xs">
+            🔥 FREE DELIVERY TOADY
+          </div>
+
+          <div class="flex gap-3 items-center">
+
+            <a><img src="logo/icons8-facebook-40.png" class="w-5 h-5" alt="Facebook"></a>
+
+            <a><img src="logo/icons8-instagram-40.png" class="w-5 h-5" alt="Instagram"></a>
+
+            <a><img src="logo/icons8-tiktok-48.png" class="w-5 h-5" alt="TikTok"></a>
+
+            <a><img src="logo/icons8-youtube-40.png" class="w-5 h-5" alt="YouTube"></a>
+
+          </div>
+
         </div>
-
-      </div>
-
-      <!-- Right -->
-      <div class="flex items-center gap-20">
-
-        <div class="bg-red-600 px-4 py-1 rounded-full text-xs">
-          🔥 FREE DELIVERY  TOADY
-        </div>
-
-        <div class="flex gap-3 items-center">
-
-  <a><img src="logo/icons8-facebook-40.png" class="w-5 h-5" alt="Facebook"></a>
-
-  <a><img src="logo/icons8-instagram-40.png" class="w-5 h-5" alt="Instagram"></a>
-
-  <a><img src="logo/icons8-tiktok-48.png" class="w-5 h-5" alt="TikTok"></a>
-
-  <a><img src="logo/icons8-youtube-40.png" class="w-5 h-5" alt="YouTube"></a>
-
-</div>
 
       </div>
 
     </div>
-
   </div>
-</div>
 
 
-<!-- NAVBAR -->
-<nav class="sticky top-0 z-50 bg-white shadow-lg">
+  <!-- NAVBAR -->
+  <nav class="sticky top-0 z-50 bg-white shadow-lg">
 
-  <div class="max-w-7xl mx-auto px-4">
+    <div class="max-w-7xl mx-auto px-4">
 
-    <div class="navbar py-3">
+      <div class="navbar py-3">
 
-      <!-- LEFT -->
+        <!-- LEFT -->
 
-      <div class="navbar-start">
+        <div class="navbar-start">
 
-        <!-- Mobile Menu -->
+          <!-- Mobile Menu -->
 
-        <div class="dropdown lg:hidden">
+          <div class="dropdown lg:hidden">
 
-          <label tabindex="0" class="btn btn-ghost">
+            <label tabindex="0" class="btn btn-ghost">
 
-            <svg xmlns="http://www.w3.org/2000/svg"
-              class="w-7 h-7"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
 
-              <path stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"/>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
 
-            </svg>
+              </svg>
 
-          </label>
+            </label>
 
-          <ul tabindex="0"
-            class="menu menu-lg dropdown-content mt-3 z-[100] p-4 shadow bg-white rounded-box w-72">
+            <ul tabindex="0" class="menu menu-lg dropdown-content mt-3 z-[100] p-4 shadow bg-white rounded-box w-72">
 
-            <li><a>Home</a></li>
-            <li><a>About</a></li>
-            <li><a>Menu</a></li>
-            <li><a>Chefs</a></li>
-            <li><a>Reservation</a></li>
-            <li><a>Reviews</a></li>
-            <li><a>Contact</a></li>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#menu">Menu</a></li>
+              <li><a href="#chef">Chefs</a></li>
+              <li><a href="#res">Reservation</a></li>
+              <li><a href="#revu">Reviews</a></li>
+              <li><a href="#contact">Contact</a></li>
 
-            <div class="divider"></div>
+              <div class="divider"></div>
 
-            <a class="btn bg-red-600 text-white border-none rounded-xl">
-              Order Now
-            </a>
+              <a href="order.html" class="btn bg-red-600 text-white border-none rounded-xl">
+                Order Now
+
+              </a>
+            </ul>
+
+          </div>
+
+          <!-- Logo -->
+
+          <a href="" class="flex items-center gap-4">
+
+            <div class="w-10 h-10 rounded-full bg-gradient-to-r from-orange-400 to-red-600
+         flex items-center justify-center text-white text-2xl
+         shadow-[0_0_25px_rgba(251,146,60,0.6)]">
+
+              🍴
+
+            </div>
+
+            <div>
+
+              <h1 class="text-4xl font-black">
+                Hasa<span class="text-red-600">n</span>
+              </h1>
+
+              <p class="text-xs tracking-[px] text-gray-400 uppercase">
+
+                Fast Food & Restaurant
+
+              </p>
+
+            </div>
+
+          </a>
+
+        </div>
+
+        <!-- CENTER -->
+
+        <div class="navbar-center hidden lg:flex">
+
+          <ul class="menu menu-horizontal gap-2 text-lg font-semibold">
+
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#chef">Chefs</a></li>
+            <li><a href="#res">Reservation</a></li>
+            <li><a href="#revu">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
 
           </ul>
 
         </div>
 
-        <!-- Logo -->
+        <!-- RIGHT -->
 
-        <a href="" class="flex items-center gap-4">
+        <div class="navbar-end gap-3">
 
-          <div
-  class="w-10 h-10 rounded-full bg-gradient-to-r from-orange-400 to-red-600
-         flex items-center justify-center text-white text-2xl
-         shadow-[0_0_25px_rgba(251,146,60,0.6)]">
+          <button class="btn btn-circle btn-ghost hidden sm:flex">
 
-  🍴
+            <i class="fa-solid fa-magnifying-glass text-xl"></i>
 
-</div>
+          </button>
 
-          <div>
+          <a href="order.html"
+            class="hidden md:flex btn bg-red-600 hover:bg-red-700 border-none text-white rounded-xl px-7">
 
-            <h1 class="text-4xl font-black">
-              Hasa<span class="text-red-600">n</span>
-            </h1>
+            <i class="fa-solid fa-bag-shopping"></i>
 
-            <p
-              class="text-xs tracking-[px] text-gray-400 uppercase">
+            Order Now
 
-              Fast Food & Restaurant
+          </a>
 
-            </p>
 
-          </div>
 
-        </a>
-
-      </div>
-
-      <!-- CENTER -->
-
-      <div class="navbar-center hidden lg:flex">
-
-        <ul class="menu menu-horizontal gap-2 text-lg font-semibold">
-
-          <li><a class="">Home</a></li>
-          <li><a>About</a></li>
-          <li><a>Menu</a></li>
-          <li><a>Chefs</a></li>
-          <li><a>Reservation</a></li>
-          <li><a>Reviews</a></li>
-          <li><a>Contact</a></li>
-
-        </ul>
-
-      </div>
-
-      <!-- RIGHT -->
-
-      <div class="navbar-end gap-3">
-
-        <button
-          class="btn btn-circle btn-ghost hidden sm:flex">
-
-          <i class="fa-solid fa-magnifying-glass text-xl"></i>
-
-        </button>
-
-        <a
-          class="hidden md:flex btn bg-red-600 hover:bg-red-700 border-none text-white rounded-xl px-7">
-
-          <i class="fa-solid fa-bag-shopping"></i>
-
-          Order Now
-
-        </a>
-
-     
+        </div>
 
       </div>
 
     </div>
 
-  </div>
+  </nav>
 
-</nav>
-
-<!-- hero section -->
- <section class="bg-[#FFF8F1] overflow-hidden py-20">
+  <!-- hero section -->
+  <section id="home" class="bg-[#FFF8F1] overflow-hidden py-20">
 
     <div class="max-w-7xl mx-auto px-5 sm:px-8 lg:px-8">
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
+      <div class="grid grid-cols-1 lg:grid-cols-2 items-center gap-16">
 
-            <!-- ================= LEFT ================= -->
+        <!-- ================= LEFT ================= -->
 
-            <div class="text-center lg:text-left">
+        <div class="text-center lg:text-left">
 
-                <span
-                    class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-red-100 text-red-600 font-semibold">
+          <span class="inline-flex items-center gap-2 px-5 py-3 rounded-full bg-red-100 text-red-600 font-semibold">
 
-                    🔥 Hot & Fresh Everyday
+            🔥 Hot & Fresh Everyday
 
-                </span>
+          </span>
 
-                <h1
-                    class="mt-8 font-creepster leading-tight text-4xl sm:text-6xl lg:text-7xl xl:text-8xl ">
+          <h1 class="mt-8 font-creepster leading-tight text-4xl sm:text-6xl lg:text-7xl xl:text-8xl ">
 
-                    Delicious<span class="text-red-600">Fast Food</span>for Every Moment
+            Delicious<span class="text-red-600">Fast Food</span>for Every Moment
 
-                </h1>
+          </h1>
 
-                <p
-                    class="mt-8 text-gray-600 text-lg leading-9 max-w-xl mx-auto lg:mx-0">
+          <p class="mt-8 text-gray-600 text-lg leading-9 max-w-xl mx-auto lg:mx-0">
 
-                    Experience bold flavors crafted from premium
-                    ingredients.
+            Experience bold flavors crafted from premium
+            ingredients.
 
-                    From crispy burgers to gourmet pizzas—
+            From crispy burgers to gourmet pizzas—
 
-                    every bite is an adventure worth savoring.
+            every bite is an adventure worth savoring.
 
-                </p>
+          </p>
 
-                <!-- Buttons -->
+          <!-- Buttons -->
 
-                <div
-                    class="flex flex-col sm:flex-row justify-center lg:justify-start gap-5 mt-10">
+          <div class="flex flex-col sm:flex-row justify-center lg:justify-start gap-5 mt-10">
 
-                    <button
-                        class="btn h-16 px-8 rounded-full bg-red-600 hover:bg-red-700 border-none text-white text-lg">
+            <button class="btn h-16 px-8 rounded-full bg-red-600 hover:bg-red-700 border-none text-white text-lg">
 
-                        🍴 Explore Menu
+              🍴 Explore Menu
 
-                    </button>
+            </button>
 
-                    <button
-                        class="flex items-center justify-center gap-4">
+            <button class="flex items-center justify-center gap-4">
 
-                        <div
-                            class="w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center">
+              <div class="w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center">
 
-                            ▶
+                ▶
 
-                        </div>
+              </div>
 
-                        <span
-                            class="font-semibold text-lg">
+              <span class="font-semibold text-lg">
 
-                            Watch Our Story
+                Watch Our Story
 
-                        </span>
+              </span>
 
-                    </button>
+            </button>
 
-                </div>
+          </div>
 
-                <!-- Counter -->
+          <!-- Counter -->
 
-                <div
-                    class="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16 ">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 mt-16 ">
 
-                    <div>
+            <div>
 
-                        <h2
-                            class="text-4xl lg:text-5xl font-griffy">
+              <h2 class="text-4xl lg:text-5xl font-griffy">
 
-                            850<span class="text-red-600">+</span>
+                850<span class="text-red-600">+</span>
 
-                        </h2>
+              </h2>
 
-                        <p
-                            class="uppercase tracking-widest text-gray-500 text-xs">
+              <p class="uppercase tracking-widest text-gray-500 text-xs">
 
-                            Happy Customers
+                Happy Customers
 
-                        </p>
-
-                    </div>
-
-                    <div>
-
-                        <h2
-                            class="text-4xl lg:text-5xl font-griffy">
-
-                            120<span class="text-red-600">+</span>
-
-                        </h2>
-
-                        <p
-                            class="uppercase tracking-widest text-gray-500 text-xs">
-
-                            Menu Items
-
-                        </p>
-
-                    </div>
-
-                    <div>
-
-                        <h2
-                            class="text-4xl lg:text-5xl font-griffy">
-
-                            15<span class="text-red-600">+</span>
-
-                        </h2>
-
-                        <p
-                            class="uppercase tracking-widest text-gray-500 text-xs">
-
-                            Expert Chefs
-
-                        </p>
-
-                    </div>
-
-                    <div>
-
-                        <h2
-                            class="text-4xl lg:text-5xl font-griffy">
-
-                            12<span class="text-red-600">yr</span>
-
-                        </h2>
-
-                        <p
-                            class="uppercase tracking-widest text-gray-500 text-xs">
-
-                            Experience
-
-                        </p>
-
-                    </div>
-
-                </div>
+              </p>
 
             </div>
 
-            <!-- ================= RIGHT ================= -->
+            <div>
 
-            <div class="relative flex justify-center">
+              <h2 class="text-4xl lg:text-5xl font-griffy">
 
-                <!-- FOOD -->
+                120<span class="text-red-600">+</span>
 
-                <h1
-                    class="absolute
+              </h2>
+
+              <p class="uppercase tracking-widest text-gray-500 text-xs">
+
+                Menu Items
+
+              </p>
+
+            </div>
+
+            <div>
+
+              <h2 class="text-4xl lg:text-5xl font-griffy">
+
+                15<span class="text-red-600">+</span>
+
+              </h2>
+
+              <p class="uppercase tracking-widest text-gray-500 text-xs">
+
+                Expert Chefs
+
+              </p>
+
+            </div>
+
+            <div>
+
+              <h2 class="text-4xl lg:text-5xl font-griffy">
+
+                12<span class="text-red-600">yr</span>
+
+              </h2>
+
+              <p class="uppercase tracking-widest text-gray-500 text-xs">
+
+                Experience
+
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- ================= RIGHT ================= -->
+
+        <div class="relative flex justify-center">
+
+          <!-- FOOD -->
+
+          <h1 class="absolute
                     text-[130px]
                     sm:text-[180px]
                     lg:text-[260px]
@@ -397,14 +368,13 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     top-1/2
                     -translate-y-1/2">
 
-                    FOOD
+            FOOD
 
-                </h1>
+          </h1>
 
-                <!-- Glow -->
+          <!-- Glow -->
 
-                <div
-                    class="absolute
+          <div class="absolute
                     w-72 h-72
                     sm:w-96 sm:h-96
                     lg:w-[550px]
@@ -413,12 +383,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     bg-orange-300/30
                     blur-[100px]">
 
-                </div>
+          </div>
 
-                <!-- Circle -->
+          <!-- Circle -->
 
-                <div
-                    class="relative
+          <div class="relative
                     w-72 h-72
                     sm:w-[420px]
                     sm:h-[420px]
@@ -430,316 +399,320 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     items-center
                     justify-center">
 
-                    <img
+            <img
+              src="burgers/Hamburger_on_a_white_background_food_photograph___Premium_AI-generated_image-removebg-preview.png"
+              class="w-64 sm:w-80 lg:w-[430px] object-contain drop-shadow-2xl" alt="Burger">
 
-                        src="burgers/Everyday_Lifestyle-removebg-preview.png"
-
-                        class="w-64 sm:w-80 lg:w-[430px] object-contain drop-shadow-2xl"
-
-                        alt="Burger">
-
-                </div>
-
-            </div>
+          </div>
 
         </div>
 
+      </div>
+
     </div>
 
-</section>
+  </section>
 
- <!-- animetion section  -->
+  <!-- animetion section  -->
   <section class="bg-red-600 overflow-hidden py-3">
 
     <div class="marquee">
 
-        <div class="marquee-content">
+      <div class="marquee-content">
 
-            <span>🍕 Fresh Pizzas</span>
-            <span>• Fresh Wraps & Rolls</span>
-            <span>• Loaded Fries</span>
-            <span>• Ice Cream Shakes</span>
-            <span>• Grilled Sandwiches</span>
-            <span>• Crispy Fried Chicken</span>
-            <span>• Gourmet Burgers</span>
-            <span>• Artisan Pizzas</span>
+        <span>🍕 Fresh Pizzas</span>
+        <span>• Fresh Wraps & Rolls</span>
+        <span>• Loaded Fries</span>
+        <span>• Ice Cream Shakes</span>
+        <span>• Grilled Sandwiches</span>
+        <span>• Crispy Fried Chicken</span>
+        <span>• Gourmet Burgers</span>
+        <span>• Artisan Pizzas</span>
 
-            <!-- Duplicate -->
-            <span>🍕 Fresh Pizzas</span>
-            <span>• Fresh Wraps & Rolls</span>
-            <span>• Loaded Fries</span>
-            <span>• Ice Cream Shakes</span>
-            <span>• Grilled Sandwiches</span>
-            <span>• Crispy Fried Chicken</span>
-            <span>• Gourmet Burgers</span>
-            <span>• Artisan Pizzas</span>
+        <!-- Duplicate -->
+        <span>🍕 Fresh Pizzas</span>
+        <span>• Fresh Wraps & Rolls</span>
+        <span>• Loaded Fries</span>
+        <span>• Ice Cream Shakes</span>
+        <span>• Grilled Sandwiches</span>
+        <span>• Crispy Fried Chicken</span>
+        <span>• Gourmet Burgers</span>
+        <span>• Artisan Pizzas</span>
 
-        </div>
+      </div>
 
     </div>
 
-</section>
+  </section>
 
-<!--  Browse by category -->
+  <!--  Browse by category -->
 
-<section class="py-20 bg-[#FFF8F1]">
+  <section class="py-20 bg-[#FFF8F1]">
 
     <div class="max-w-7xl mx-auto px-5">
 
-        <!-- Heading -->
+      <!-- Heading -->
 
-        <div class="text-center">
+      <div class="text-center">
 
-            <p
-                class="text-red-500 text-2xl italic font-semibold">
+        <p class="text-red-500 text-2xl italic font-extrabold">
 
-                What We Offer
+          What We Offer
 
-            </p>
+        </p>
 
-            <h2
-                class="text-4xl md:text-5xl font-black mt-2">
+        <h2 class="text-4xl md:text-5xl font-griffy mt-2">
 
-                Browse by
+          Browse by
 
-                <span class="text-red-600">
+          <span class="text-red-600">
 
-                    Category
+            Category
 
-                </span>
+          </span>
 
-            </h2>
+        </h2>
 
-            <div
-                class="w-20 h-1 bg-orange-400 rounded-full mx-auto mt-5">
-
-            </div>
-
-            <p
-                class="text-gray-500 mt-6 max-w-xl mx-auto leading-8">
-
-                From sizzling burgers to exotic world cuisines —
-                find your favourite in our menu.
-
-            </p>
+        <div class="w-20 h-1 bg-orange-400 rounded-full mx-auto mt-5">
 
         </div>
 
-        <!-- Cards -->
+        <p class="text-gray-500 mt-6 max-w-xl mx-auto leading-8">
 
-        <div
-            class="grid
+          From sizzling burgers to exotic world cuisines —
+          find your favourite in our menu.
+
+        </p>
+
+      </div>
+
+      <!-- Cards -->
+
+      <div class="grid
             grid-cols-2
             sm:grid-cols-3
             lg:grid-cols-6
             gap-6
             mt-16">
 
-            <!-- Card 1 -->
+        <!-- Card 1 -->
 
-            <div
-                class="group bg-white rounded-3xl p-8 text-center border-2 border-red-500 shadow-xl shadow-red-100 hover:shadow-red-200 duration-300 cursor-pointer">
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
 
-                <img
-                    src="burgers/Everyday_Lifestyle-removebg-preview.png"
-                    class="w-20 h-20 object-cover rounded-full mx-auto">
+          <img src="all photo/FOOD😝❤.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
 
-                <h3
-                    class="font-bold text-xl mt-6">
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
 
-                    All Items
+            ALL Items
 
-                </h3>
+          </h3>
 
-                <p
-                    class="text-gray-400">
+          <p class="text-gray-400">
 
-                    99 items
+            24 items
 
-                </p>
-
-            </div>
-
-            <!-- Card -->
-
-            <div
-                class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl duration-300 hover:-translate-y-2 cursor-pointer">
-
-                <img
-                    src="burgers/Everyday_Lifestyle-removebg-preview.png"
-                    class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
-
-                <h3
-                    class="font-bold text-xl mt-6">
-
-                    Burgers
-
-                </h3>
-
-                <p
-                    class="text-gray-400">
-
-                    24 items
-
-                </p>
-
-            </div>
-
-            <!-- Card -->
-
-            <div
-                class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl duration-300 hover:-translate-y-2 cursor-pointer">
-
-                <img
-                    src="Pizza/pizza.jpg"
-                    class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
-
-                <h3
-                    class="font-bold text-xl mt-6">
-
-                    Pizza
-
-                </h3>
-
-                <p
-                    class="text-gray-400">
-
-                    18 items
-
-                </p>
-
-            </div>
-
-            <!-- Card -->
-
-            <div
-                class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl duration-300 hover:-translate-y-2 cursor-pointer">
-
-                <img
-                    src="chicken/fried-chicken.jpg"
-                    class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
-
-                <h3
-                    class="font-bold text-xl mt-6">
-
-                    Fried Chicken
-
-                </h3>
-
-                <p
-                    class="text-gray-400">
-
-                    15 items
-
-                </p>
-
-            </div>
-
-            <!-- Card -->
-
-            <div
-                class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl duration-300 hover:-translate-y-2 cursor-pointer">
-
-                <img
-                    src="Wraps/wrap.jpg"
-                    class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
-
-                <h3
-                    class="font-bold text-xl mt-6">
-
-                    Wraps
-
-                </h3>
-
-                <p
-                    class="text-gray-400">
-
-                    12 items
-
-                </p>
-
-            </div>
-
-            <!-- Card -->
-
-            <div
-                class="group bg-white rounded-3xl p-8 text-center shadow-lg hover:shadow-xl duration-300 hover:-translate-y-2 cursor-pointer">
-
-                <img
-                    src="desserts/dessert.jpg"
-                    class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
-
-                <h3
-                    class="font-bold text-xl mt-6">
-
-                    Desserts
-
-                </h3>
-
-                <p
-                    class="text-gray-400">
-
-                    20 items
-
-                </p>
-
-            </div>
+          </p>
 
         </div>
 
+        <!-- Card 2 -->
+
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
+
+          <img src="burgers/BBQ Chicken.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
+
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
+
+            Burgers
+
+          </h3>
+
+          <p class="text-gray-400">
+
+            24 items
+
+          </p>
+
+        </div>
+
+        <!-- Card 3-->
+
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
+
+          <img src="Pizza/Delicious Hot Pizza Poster Design.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
+
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
+
+            Pizza
+
+          </h3>
+
+          <p class="text-gray-400">
+
+            18 items
+
+          </p>
+
+        </div>
+
+        <!-- Card 4-->
+
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
+
+          <img
+            src="chicken/Tải miễn phí Gà Rán Ngon Cung Cấp Mẫu Truyền Thông Xã Hội _ PSD chuyên nghiệp - Pikbest.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
+
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
+
+            Fried Chicken
+
+          </h3>
+
+          <p class="text-gray-400">
+
+            15 items
+
+          </p>
+
+        </div>
+
+        <!-- Card 5-->
+
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
+
+          <img src="Wraps/Crispy Chicken Wrap Recipe _ Easy & Quick Snack Idea.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
+
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
+
+            Wraps
+
+          </h3>
+
+          <p class="text-gray-400">
+
+            12 items
+
+          </p>
+
+        </div>
+
+        <!-- Card 6-->
+
+        <div class="group bg-white rounded-3xl p-8 text-center
+         border-2 border-transparent
+         shadow-xl shadow-gray-100
+         hover:border-red-500
+         hover:shadow-xl hover:shadow-red-200
+         hover:-translate-y-2
+         duration-300 ease-in-out
+         cursor-pointer">
+
+          <img src="desserts/what croissant will you take with your morning coffee.jpeg"
+            class="w-20 h-20 object-cover rounded-full mx-auto group-hover:scale-110 duration-300">
+
+          <h3 class="font-bold text-xl mt-6 group-hover:text-red-500 ">
+
+            Desserts
+
+          </h3>
+
+          <p class="text-gray-400">
+
+            20 items
+
+          </p>
+
+        </div>
+
+      </div>
+
     </div>
 
-</section>
+  </section>
 
-<!-- ABOUT    -->
- <section class="py-24 bg-white">
+  <!-- ABOUT    -->
+  <section id="about" class="py-24 bg-white">
 
     <div class="max-w-7xl mx-auto px-5">
 
-        <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div class="grid lg:grid-cols-2 gap-16 items-center">
 
-            <!-- ================= LEFT ================= -->
+        <!-- ================= LEFT ================= -->
 
-            <div class="relative">
+        <div class="relative">
 
-                <!-- Main Image -->
+          <!-- Main Image -->
 
-                <img
-                    src="images/about.jpg"
-                    alt="Restaurant"
-                    class="w-full h-[550px] object-cover rounded-3xl shadow-2xl">
+          <img src="logo/Modern, ecofriendly luxurious restaurant interior….jpeg" alt="Restaurant"
+            class="w-full h-[550px] object-cover rounded-3xl shadow-2xl">
 
-                <!-- Experience Card -->
+          <!-- Experience Card -->
 
-                <div
-                    class="absolute top-8 -left-5 bg-red-600 text-white rounded-3xl px-8 py-6 shadow-2xl">
+          <div class="absolute top-8 -left-5 bg-red-600 text-white rounded-3xl px-8 py-6 shadow-2xl">
 
-                    <h2 class="text-5xl font-black">
+            <h2 class="text-5xl font-black">
 
-                        12<span class="text-orange-300">+</span>
+              12<span class="text-orange-300">+</span>
 
-                    </h2>
+            </h2>
 
-                    <p class="font-bold mt-2">
+            <p class="font-bold mt-2">
 
-                        Years of
+              Years of
 
-                    </p>
+            </p>
 
-                    <p>
+            <p>
 
-                        Excellence
+              Excellence
 
-                    </p>
+            </p>
 
-                </div>
+          </div>
 
-                <!-- Small Image -->
+          <!-- Small Image -->
 
-                <img
-                    src="images/about-small.jpg"
-                    alt="Food"
-                    class="absolute
+          <img src="all photo/FOOD😝❤.jpeg" alt="Food" class="absolute
                     bottom-[-30px]
                     right-[-20px]
                     w-52
@@ -750,528 +723,896 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
                     border-white
                     shadow-2xl">
 
-            </div>
+        </div>
 
-            <!-- ================= RIGHT ================= -->
+        <!-- ================= RIGHT ================= -->
 
-            <div>
+        <div>
 
-                <p
-                    class="text-red-500 text-2xl italic font-semibold">
+          <p class="text-red-500 text-2xl italic font-extrabold">
 
-                    Our Story
+            Our Story
 
-                </p>
+          </p>
 
-                <h2
-                    class="text-5xl lg:text-6xl font-black leading-tight mt-3">
+          <h2 class="text-5xl lg:text-6xl font-griffy leading-tight mt-3">
 
-                    We Invite You to Visit
+            We Invite You to Visit
 
-                    <br>
+            <br>
 
-                    Our
+            Our
 
-                    <span class="text-red-600">
+            <span class="text-red-600">
 
-                        Food Restaurant
+              Food Restaurant
 
-                    </span>
+            </span>
 
-                </h2>
+          </h2>
 
-                <div
-                    class="w-20 h-1 bg-orange-400 rounded-full mt-6">
+          <div class="w-20 h-1 bg-orange-400 rounded-full mt-6">
+
+          </div>
+
+          <p class="mt-8 text-gray-500 leading-9 text-lg">
+
+            Founded in 2012, Sarab began as a small corner
+            restaurant with one mission —
+            serving delicious food made from premium ingredients.
+
+            Today we're proud to welcome thousands of happy
+            customers every week.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+ <!-- menu section  -->
+  <section id="menu" class="py-20 bg-[#fdf9f5]">
+    <div class="max-w-7xl mx-auto px-4">
+
+      <!-- Heading -->
+      <div class="text-center mb-12">
+        <p class="text-red-500 font-extrabold italic text-lg">
+          What's Cooking
+        </p>
+
+        <h2 class="text-5xl font-bold mt-2 font-griffy">
+          Our Delicious
+          <span class="text-red-500">Menu</span>
+        </h2>
+
+        <div class="w-20 h-1 bg-red-500 mx-auto rounded-full mt-5"></div>
+      </div>
+      <!-- All card -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- All card -->
+<!-- Card 1 gurger  -->
+        <div id="#All"
+          class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
+
+          <div class="relative">
+
+            <img src="burgers/The_Ultimate_Pizza_Burger_Recipe-removebg-preview.png" class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-yellow-400 px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ Hot
+            </span>
+
+            <button
+              class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Burgers
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Classic Smash Burger
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              Double smashed patty, cheddar, caramelized onions, pickles &
+              special sauce.
+            </p>
+
+            <div class="flex justify-between items-end mt-8">
+
+              <div>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $14.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $18.99
+                  </span>
 
                 </div>
 
-                <p
-                    class="mt-8 text-gray-500 leading-9 text-lg">
-
-                    Founded in 2012, Sarab began as a small corner
-                    restaurant with one mission —
-                    serving delicious food made from premium ingredients.
-
-                    Today we're proud to welcome thousands of happy
-                    customers every week.
-
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (128)
                 </p>
 
+              </div>
+
+              <button onclick="openOrderModal(
+    'Classic Smash Burger',
+    'BURGERS',
+    14.99,
+    'burgers/The_Ultimate_Pizza_Burger_Recipe-removebg-preview.png',
+    'Double smashed patty, cheddar, caramelized onions, pickles & special sauce.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
             </div>
+
+          </div>
 
         </div>
 
+        <!-- Card 2 Pizza  -->
+        <div id="Pizza "
+          class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
+
+          <div class="relative">
+
+            <img src="Pizza/Colorful pizza slice melting cheese tomato olives _ Premium AI-generated image.jpeg"
+              9a591?w=80 class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-green-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ New
+            </span>
+
+            <button
+              class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Pizza
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Margherita Royale
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              San Marzano tomatoes, buffalo mozzarella, basil & truffle oil.
+            </p>
+
+            <div class="flex justify-between items-end mt-8">
+
+              <div>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $19.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $24.99
+                  </span>
+
+                </div>
+
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (95)
+                </p>
+
+              </div>
+
+              <button onclick="openOrderModal(
+    'Margherita Royale',
+    'PIZZA',
+    19.99,
+    'Pizza/Colorful pizza slice melting cheese tomato olives _ Premium AI-generated image.jpeg',
+    'San Marzano tomatoes, buffalo mozzarella, basil & truffle oil.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Card 3 chicken -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
+
+          <div class="relative">
+
+            <img src="chicken/Grilled chicken, an image I generated using AI.jpeg" class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-red-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ Best Seller
+            </span>
+
+            <button
+              class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Chicken
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Nashville Hot Chicken
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              Crispy fried chicken in fiery Nashville spice blend with honey
+              drizzle.
+            </p>
+
+            <div class="flex justify-between items-end mt-8">
+
+              <div>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $12.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $16.99
+                  </span>
+
+                </div>
+
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (210)
+                </p>
+
+              </div>
+
+              <button onclick="openOrderModal(
+    'Nashville Hot Chicken',
+    'CHICKEN',
+    12.99,
+    'chicken/Grilled chicken, an image I generated using AI.jpeg',
+    'Crispy fried chicken in fiery Nashville spice blend with honey drizzle.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Card 4 : Dessert -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg
+         hover:-translate-y-2 hover:shadow-2xl
+         duration-300 h-full flex flex-col">
+
+          <div class="relative">
+
+            <img src="desserts/Dessert Lover’s Dream 🍓🍫 _ Aesthetic Sweet Treats.jpeg"
+              class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-red-600 text-white
+             px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ Best Seller
+            </span>
+
+            <button class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full
+             shadow flex items-center justify-center text-gray-500
+             hover:text-red-500 duration-200">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6 flex flex-col flex-1">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Desserts
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Nashville Desserts
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              Crispy fried chicken in fiery Nashville spice blend with honey
+              drizzle.
+            </p>
+
+            <div class="flex justify-between items-end mt-auto pt-8">
+
+              <div>
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $5.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $16.99
+                  </span>
+
+                </div>
+
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (210)
+                </p>
+              </div>
+
+              <button onclick="openOrderModal(
+    'Nashville Desserts',
+    'DESSERTS',
+    5.99,
+    'desserts/Dessert Lover’s Dream 🍓🍫 _ Aesthetic Sweet Treats.jpeg',
+    'A delicious sweet dessert with a beautiful presentation.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Card 5 : Wraps -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg
+         hover:-translate-y-2 hover:shadow-2xl
+         duration-300 h-full flex flex-col">
+
+          <div class="relative">
+
+            <img
+              src="Wraps/Вегетарианская упаковка, наполненная курицей и свежими овощами, выделенными на белом _ Премиум AI-сгенерированное изображение.jpeg"
+              class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-red-600 text-white
+             px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ Best Seller
+            </span>
+
+            <button class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full
+             shadow flex items-center justify-center text-gray-500
+             hover:text-red-500 duration-200">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6 flex flex-col flex-1">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Wraps
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Nashville Hot Wraps
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              Crispy fried chicken in fiery Nashville spice blend with honey
+              drizzle. Crispy fried chicken in fiery Nashville spice blend with
+              honey drizzle.
+            </p>
+
+            <div class="flex justify-between items-end mt-auto pt-8">
+
+              <div>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $10.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $13.99
+                  </span>
+
+                </div>
+
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (210)
+                </p>
+
+              </div>
+
+              <button onclick="openOrderModal(
+    'Nashville Hot Wraps',
+    'WRAPS',
+    10.99,
+    'Wraps/Вегетарианская упаковка, наполненная курицей и свежими овощами, выделенными на белом _ Премиум AI-сгенерированное изображение.jpeg',
+    'Crispy fried chicken in fiery Nashville spice blend with honey drizzle.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Card 6 : Pasta -->
+        <div class="bg-white rounded-3xl overflow-hidden shadow-lg
+         hover:-translate-y-2 hover:shadow-2xl
+         duration-300 h-full flex flex-col">
+
+          <div class="relative">
+
+            <img src="pasta/Top View Of Pasta With Tomato Sauce Photo.jpeg" class="w-full h-64 object-cover">
+
+            <span class="absolute left-4 top-4 bg-red-600 text-white
+             px-4 py-1 rounded-full text-sm font-semibold">
+              ⭐ Best Seller
+            </span>
+
+            <button class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full
+             shadow flex items-center justify-center text-gray-500
+             hover:text-red-500 duration-200">
+              ♡
+            </button>
+
+          </div>
+
+          <div class="p-6 flex flex-col flex-1">
+
+            <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
+              Pasta
+            </p>
+
+            <h3 class="text-3xl font-bold mt-2">
+              Nashville Hot Pasta
+            </h3>
+
+            <p class="text-gray-500 mt-3">
+              Crispy fried chicken in fiery Nashville spice blend with honey
+              drizzle. Crispy fried chicken in fiery Nashville spice blend with
+              honey drizzle.
+            </p>
+
+            <div class="flex justify-between items-end mt-auto pt-8">
+
+              <div>
+
+                <div class="flex items-center gap-3">
+
+                  <span class="text-3xl font-bold text-red-600">
+                    $10.99
+                  </span>
+
+                  <span class="line-through text-gray-400">
+                    $13.99
+                  </span>
+
+                </div>
+
+                <p class="text-yellow-500 text-sm mt-2">
+                  ⭐ (210)
+                </p>
+
+              </div>
+
+              <button onclick="openOrderModal(
+    'Nashville Hot Pasta',
+    'PASTA',
+    10.99,
+    'pasta/Top View Of Pasta With Tomato Sauce Photo.jpeg',
+    'Crispy fried chicken in fiery Nashville spice blend with honey drizzle.'
+  )" class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg duration-200">
+                +
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- .............................................................. -->
+      </div>
+
+      <!-- ================= ORDER MODAL ================= -->
+      <div id="orderModal" class="hidden fixed inset-0 z-[9999] bg-black/70 backdrop-blur-sm
+         items-center justify-center p-4">
+
+        <div class="bg-white w-full max-w-6xl max-h-[95vh] overflow-y-auto
+              rounded-3xl shadow-2xl relative">
+
+          <button onclick="closeOrderModal()" class="absolute right-5 top-5 z-20 w-11 h-11 bg-white shadow-md
+             rounded-full text-2xl hover:bg-red-600 hover:text-white transition">
+            ×
+          </button>
+
+          <div class="grid lg:grid-cols-2">
+
+            <div class="p-6 md:p-10">
+              <img id="modalImage" src="" alt="" class="w-full h-[300px] md:h-[400px] object-cover rounded-2xl">
+
+              <p id="modalCategory" class="text-orange-500 font-bold mt-6 text-lg"></p>
+
+              <h2 id="modalName" class="text-3xl md:text-4xl font-extrabold mt-2"></h2>
+
+              <p id="modalDescription" class="text-gray-500 text-lg mt-4 leading-relaxed"></p>
+
+              <div class="mt-6">
+                <span id="modalPrice" class="text-4xl font-extrabold text-red-600"></span>
+              </div>
+
+              <div class="flex items-center gap-5 mt-8">
+                <span class="font-bold text-lg">Quantity</span>
+                <div class="flex items-center border rounded-xl overflow-hidden">
+                  <button onclick="decreaseQuantity()" class="w-12 h-12 text-xl font-bold hover:bg-gray-100">−</button>
+                  <span id="quantity" class="w-12 text-center font-bold text-lg">1</span>
+                  <button onclick="increaseQuantity()"
+                    class="w-12 h-12 text-xl font-bold text-red-600 hover:bg-gray-100">+</button>
+                </div>
+              </div>
+
+              <div class="flex gap-4 mt-8">
+                <button onclick="addToOrder()"
+                  class="flex-1 bg-red-600 hover:bg-red-700 text-white py-4 rounded-xl font-bold text-lg transition">
+                  🛒 Add to Order
+                </button>
+
+                <button onclick="closeOrderModal()"
+                  class="px-7 py-4 border-2 border-red-600 text-red-600 rounded-xl font-bold hover:bg-red-600 hover:text-white transition">
+                  Cancel
+                </button>
+              </div>
+            </div>
+
+            <div class="bg-gray-50 p-6 md:p-10">
+              <h2 class="text-3xl font-extrabold mb-7">
+                Your Order <span id="orderCount" class="text-red-600">(0)</span>
+              </h2>
+
+              <div id="orderItem" class="hidden bg-white rounded-2xl p-4 shadow-sm">
+                <div class="flex gap-4">
+                  <img id="cartImage" src="" alt="" class="w-20 h-20 object-cover rounded-xl">
+
+                  <div class="flex-1">
+                    <h3 id="cartName" class="font-bold"></h3>
+                    <p id="cartPrice" class="text-gray-500"></p>
+
+                    <div class="flex items-center gap-3 mt-3">
+                      <button onclick="decreaseCartQuantity()" class="w-8 h-8 bg-gray-200 rounded">−</button>
+                      <span id="cartQuantity" class="font-bold">1</span>
+                      <button onclick="increaseCartQuantity()" class="w-8 h-8 bg-red-600 text-white rounded">+</button>
+                    </div>
+                  </div>
+
+                  <button onclick="removeOrder()" class="text-red-600 font-bold text-xl">×</button>
+                </div>
+              </div>
+
+              <div class="border-t mt-7 pt-5">
+                <div class="flex justify-between mb-3">
+                  <span>Subtotal</span>
+                  <span id="subtotal">$0.00</span>
+                </div>
+
+                <div class="flex justify-between mb-4">
+                  <span>Delivery Fee</span>
+                  <span>$2.00</span>
+                </div>
+
+                <div class="border-t pt-4 flex justify-between">
+                  <span class="text-2xl font-bold">Total</span>
+                  <span id="total" class="text-3xl font-extrabold text-red-600">$0.00</span>
+                </div>
+              </div>
+
+              <h3 class="text-2xl font-bold mt-8 mb-5">Delivery Information</h3>
+
+              <div class="grid md:grid-cols-2 gap-4">
+                <input id="customerName" type="text" placeholder="Full Name"
+                  class="w-full border rounded-xl p-4 outline-none focus:border-red-500">
+
+                <input id="customerPhone" type="tel" placeholder="Phone Number"
+                  class="w-full border rounded-xl p-4 outline-none focus:border-red-500">
+
+                <input id="customerAddress" type="text" placeholder="Delivery Address"
+                  class="md:col-span-2 w-full border rounded-xl p-4 outline-none focus:border-red-500">
+
+                <input id="customerCity" type="text" placeholder="City"
+                  class="w-full border rounded-xl p-4 outline-none focus:border-red-500">
+
+                <input id="customerNotes" type="text" placeholder="Notes (Optional)"
+                  class="w-full border rounded-xl p-4 outline-none focus:border-red-500">
+              </div>
+
+              <button onclick="placeOrder()"
+                class="w-full bg-red-600 hover:bg-red-700 text-white py-4 rounded-xl font-bold text-lg mt-6 transition">
+                🚚 Place Order
+              </button>
+
+              <p class="text-center text-gray-400 text-sm mt-4">🔒 Your information is safe and secure</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- i don't now   just ai cope code  -->
+      <script>
+        let selectedFood = {};
+        let quantity = 1;
+        let cartQuantity = 0;
+
+        function openOrderModal(name, category, price, image, description) {
+          selectedFood = { name, category, price: Number(price), image, description };
+          quantity = 1;
+
+          document.getElementById("modalImage").src = image;
+          document.getElementById("modalName").textContent = name;
+          document.getElementById("modalCategory").textContent = category;
+          document.getElementById("modalPrice").textContent = "$" + Number(price).toFixed(2);
+          document.getElementById("modalDescription").textContent = description;
+          document.getElementById("quantity").textContent = quantity;
+
+          document.getElementById("orderModal").classList.remove("hidden");
+          document.getElementById("orderModal").classList.add("flex");
+        }
+
+        function closeOrderModal() {
+          document.getElementById("orderModal").classList.add("hidden");
+          document.getElementById("orderModal").classList.remove("flex");
+        }
+
+        function increaseQuantity() {
+          quantity++;
+          document.getElementById("quantity").textContent = quantity;
+        }
+
+        function decreaseQuantity() {
+          if (quantity > 1) quantity--;
+          document.getElementById("quantity").textContent = quantity;
+        }
+
+        function addToOrder() {
+          cartQuantity = quantity;
+          document.getElementById("orderCount").textContent = "(" + cartQuantity + ")";
+          document.getElementById("orderItem").classList.remove("hidden");
+          document.getElementById("cartImage").src = selectedFood.image;
+          document.getElementById("cartName").textContent = selectedFood.name;
+          document.getElementById("cartPrice").textContent = "$" + selectedFood.price.toFixed(2);
+          document.getElementById("cartQuantity").textContent = cartQuantity;
+          updateTotal();
+        }
+
+        function increaseCartQuantity() {
+          if (cartQuantity === 0) return;
+          cartQuantity++;
+          document.getElementById("cartQuantity").textContent = cartQuantity;
+          document.getElementById("orderCount").textContent = "(" + cartQuantity + ")";
+          updateTotal();
+        }
+
+        function decreaseCartQuantity() {
+          if (cartQuantity > 1) cartQuantity--;
+          document.getElementById("cartQuantity").textContent = cartQuantity;
+          document.getElementById("orderCount").textContent = "(" + cartQuantity + ")";
+          updateTotal();
+        }
+
+        function removeOrder() {
+          cartQuantity = 0;
+          document.getElementById("orderCount").textContent = "(0)";
+          document.getElementById("orderItem").classList.add("hidden");
+          updateTotal();
+        }
+
+        function updateTotal() {
+          const subtotal = selectedFood.price ? selectedFood.price * cartQuantity : 0;
+          const delivery = cartQuantity > 0 ? 2 : 0;
+          const total = subtotal + delivery;
+
+          document.getElementById("subtotal").textContent = "$" + subtotal.toFixed(2);
+          document.getElementById("total").textContent = "$" + total.toFixed(2);
+        }
+
+        function placeOrder() {
+          if (cartQuantity === 0) {
+            alert("Please add a food item first.");
+            return;
+          }
+
+          const name = document.getElementById("customerName").value.trim();
+          const phone = document.getElementById("customerPhone").value.trim();
+          const address = document.getElementById("customerAddress").value.trim();
+
+          if (!name || !phone || !address) {
+            alert("Please enter your Name, Phone Number and Address.");
+            return;
+          }
+
+          alert(
+            "✅ Order placed successfully!\n\n" +
+            selectedFood.name + " × " + cartQuantity +
+            "\nTotal: " + document.getElementById("total").textContent
+          );
+
+          closeOrderModal();
+        }
+      </script>
+
+    </div>
+  </section>
+
+
+  <!-- Special Offer Section -->
+  <section class="py-20 bg-[#7A1212] overflow-hidden relative">
+
+    <!-- Background Pattern -->
+    <div
+      class="absolute inset-0 opacity-10 bg-[radial-gradient(circle,white_1px,transparent_1px)] [background-size:28px_28px]">
     </div>
 
-</section>
+    <div class="max-w-7xl mx-auto px-5 relative z-10">
+
+      <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+        <!-- ================= Left ================= -->
+
+        <div class="text-white">
+
+          <!-- Badge -->
+
+          <span class="inline-flex items-center gap-2 bg-orange-500 px-5 py-2 rounded-full font-semibold">
+
+            🔥 Limited Time Offer
+
+          </span>
+
+          <!-- Heading -->
+
+          <h2 class="mt-8 text-4xl sm:text-5xl lg:text-6xl font-creepster leading-tight">
+
+            SPECIAL OFFER
+
+            <br>
+
+            <span class="text-red-600">
+
+              BUY 1 GET 1 FREE
+
+            </span>
+
+          </h2>
+
+          <!-- Description -->
+
+          <p class="mt-6 text-gray-200 text-lg leading-8 max-w-xl">
+
+            Enjoy our premium handcrafted burgers made with fresh
+            ingredients.
+
+            Order today and receive another burger absolutely FREE!
+
+          </p>
+
+          <!-- Countdown -->
+
+          <div class="grid grid-cols-4 gap-3">
+
+            <div class="bg-red-950 rounded-2xl py-5 text-center">
+              <h3 class="text-3xl font-black text-white-600">02</h3>
+              <p class="text-gray-500 text-sm">Days</p>
+            </div>
+
+            <div class="bg-red-950  rounded-2xl py-5 text-center">
+              <h3 class="text-3xl font-black text-white-600">18</h3>
+              <p class="text-gray-500 text-sm">Hours</p>
+            </div>
+
+            <div class="bg-red-950  rounded-2xl py-5 text-center">
+              <h3 class="text-3xl font-black text-white-600">45</h3>
+              <p class="text-gray-500 text-sm">Minutes</p>
+            </div>
+
+            <div class="bg-red-950  rounded-2xl py-5 text-center">
+              <h3 class="text-3xl font-black text-white-600">12</h3>
+              <p class="text-gray-500 text-sm">Seconds</p>
+            </div>
+
+          </div>
+
+          <!-- Button -->
+
+          <button
+            class="mt-10 btn bg-red-700 hover:bg-orange-600 border-none rounded-full px-8 h-14 text-white text-lg">
+
+            🍔 Grab The Deal
+
+          </button>
+
+        </div>
+
+        <!-- ================= Right ================= -->
+
+        <div class="relative flex justify-center">
+
+          <!-- Glow -->
+
+          <div class="absolute w-80 h-80 lg:w-[500px] lg:h-[500px]
+          bg-red-700 rounded-full blur-[120px] opacity-30">
+          </div>
+
+          <!-- Image -->
+          <div class="relative">
+
+            <!-- Burger Image -->
+            <img src="logo/French Onion Soup Burgers – Naomi's Recipes.jpeg" alt="Burger" class="relative z-10 w-72 sm:w-96 lg:w-[520px]
+           drop-shadow-2xl rounded-2xl
+           animate-[burgerFloat_4s_ease-in-out_infinite]">
+
+            <!-- Price Badge -->
+            <div class="absolute z-20 top-6 right-4 lg:right-10
+           bg-red-700 w-28 h-28 rounded-full
+           flex flex-col items-center justify-center
+           shadow-2xl">
+
+              <span class="text-sm font-bold">
+                ONLY
+              </span>
+
+              <span class="text-4xl font-black">
+                $9
+              </span>
+
+            </div>
+
+          </div>
 
 
- <!-- Menu Section -->
-<section class="py-20 bg-[#fdf9f5]">
-  <div class="max-w-7xl mx-auto px-4">
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--  FOOD SHOWCASE  -->
+  <section class="py-16 px-4 md:px-8 lg:px-12 bg-[#fffaf7]">
 
     <!-- Heading -->
-    <div class="text-center mb-12">
-      <p class="text-red-500 font-semibold italic text-lg">
-        What's Cooking
-      </p>
+    <div class="text-center mb-12 lg:mb-16">
 
-      <h2 class="text-5xl font-bold mt-2">
-        Our Delicious
-        <span class="text-red-500">Menu</span>
-      </h2>
-
-      <div class="w-20 h-1 bg-red-500 mx-auto rounded-full mt-5"></div>
-    </div>
-
-    <!-- Category Buttons -->
-    <div class="flex flex-wrap justify-center gap-4 mb-14">
-
-      <button
-        class="px-8 py-3 rounded-full bg-red-600 text-white font-semibold shadow-lg shadow-red-300 hover:bg-red-700 duration-300">
-        All
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Burgers
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Pizza
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Chicken
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Wraps
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Desserts
-      </button>
-
-      <button
-        class="px-8 py-3 rounded-full border bg-white hover:bg-red-600 hover:text-white duration-300">
-        Pasta
-      </button>
-
-    </div>
-
-    <!-- Cards -->
-    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-      <!-- Card 1 -->
-      <div
-        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
-
-        <div class="relative">
-
-          <img
-            src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800"
-            class="w-full h-64 object-cover">
-
-          <span
-            class="absolute left-4 top-4 bg-yellow-400 px-4 py-1 rounded-full text-sm font-semibold">
-            ⭐ Hot
-          </span>
-
-          <button
-            class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
-            ♡
-          </button>
-
-        </div>
-
-        <div class="p-6">
-
-          <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
-            Burgers
-          </p>
-
-          <h3 class="text-3xl font-bold mt-2">
-            Classic Smash Burger
-          </h3>
-
-          <p class="text-gray-500 mt-3">
-            Double smashed patty, cheddar, caramelized onions, pickles &
-            special sauce.
-          </p>
-
-          <div class="flex justify-between items-end mt-8">
-
-            <div>
-
-              <div class="flex items-center gap-3">
-
-                <span class="text-3xl font-bold text-red-600">
-                  $14.99
-                </span>
-
-                <span class="line-through text-gray-400">
-                  $18.99
-                </span>
-
-              </div>
-
-              <p class="text-yellow-500 text-sm mt-2">
-                ⭐ (128)
-              </p>
-
-            </div>
-
-            <button
-              class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg">
-              +
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- Card 2 -->
-      <div
-        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
-
-        <div class="relative">
-
-          <img
-            src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800"
-            class="w-full h-64 object-cover">
-
-          <span
-            class="absolute left-4 top-4 bg-green-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-            ⭐ New
-          </span>
-
-          <button
-            class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
-            ♡
-          </button>
-
-        </div>
-
-        <div class="p-6">
-
-          <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
-            Pizza
-          </p>
-
-          <h3 class="text-3xl font-bold mt-2">
-            Margherita Royale
-          </h3>
-
-          <p class="text-gray-500 mt-3">
-            San Marzano tomatoes, buffalo mozzarella, basil & truffle oil.
-          </p>
-
-          <div class="flex justify-between items-end mt-8">
-
-            <div>
-
-              <div class="flex items-center gap-3">
-
-                <span class="text-3xl font-bold text-red-600">
-                  $19.99
-                </span>
-
-                <span class="line-through text-gray-400">
-                  $24.99
-                </span>
-
-              </div>
-
-              <p class="text-yellow-500 text-sm mt-2">
-                ⭐ (95)
-              </p>
-
-            </div>
-
-            <button
-              class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg">
-              +
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- Card 3 -->
-      <div
-        class="bg-white rounded-3xl overflow-hidden shadow-lg hover:-translate-y-2 hover:shadow-2xl duration-300">
-
-        <div class="relative">
-
-          <img
-            src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=800"
-            class="w-full h-64 object-cover">
-
-          <span
-            class="absolute left-4 top-4 bg-red-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-            ⭐ Best Seller
-          </span>
-
-          <button
-            class="absolute right-4 top-4 bg-white w-11 h-11 rounded-full shadow flex items-center justify-center text-gray-500 hover:text-red-500">
-            ♡
-          </button>
-
-        </div>
-
-        <div class="p-6">
-
-          <p class="uppercase text-orange-500 font-bold text-sm tracking-wider">
-            Chicken
-          </p>
-
-          <h3 class="text-3xl font-bold mt-2">
-            Nashville Hot Chicken
-          </h3>
-
-          <p class="text-gray-500 mt-3">
-            Crispy fried chicken in fiery Nashville spice blend with honey
-            drizzle.
-          </p>
-
-          <div class="flex justify-between items-end mt-8">
-
-            <div>
-
-              <div class="flex items-center gap-3">
-
-                <span class="text-3xl font-bold text-red-600">
-                  $12.99
-                </span>
-
-                <span class="line-through text-gray-400">
-                  $16.99
-                </span>
-
-              </div>
-
-              <p class="text-yellow-500 text-sm mt-2">
-                ⭐ (210)
-              </p>
-
-            </div>
-
-            <button
-              class="w-14 h-14 rounded-full bg-red-600 text-white text-3xl hover:bg-red-700 shadow-lg">
-              +
-            </button>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-<!-- Special Offer Section -->
-<section class="py-20 bg-[#7A1212] overflow-hidden relative">
-
-  <!-- Background Pattern -->
-  <div
-    class="absolute inset-0 opacity-10 bg-[radial-gradient(circle,white_1px,transparent_1px)] [background-size:28px_28px]">
-  </div>
-
-  <div class="max-w-7xl mx-auto px-5 relative z-10">
-
-    <div class="grid lg:grid-cols-2 gap-14 items-center">
-
-      <!-- ================= Left ================= -->
-
-      <div class="text-white">
-
-        <!-- Badge -->
-
-        <span
-          class="inline-flex items-center gap-2 bg-orange-500 px-5 py-2 rounded-full font-semibold">
-
-          🔥 Limited Time Offer
-
-        </span>
-
-        <!-- Heading -->
-
-        <h2
-          class="mt-8 text-4xl sm:text-5xl lg:text-6xl font-black leading-tight">
-
-          SPECIAL OFFER
-
-          <br>
-
-          <span class="text-yellow-300">
-
-            BUY 1 GET 1 FREE
-
-          </span>
-
-        </h2>
-
-        <!-- Description -->
-
-        <p
-          class="mt-6 text-gray-200 text-lg leading-8 max-w-xl">
-
-          Enjoy our premium handcrafted burgers made with fresh
-          ingredients.
-
-          Order today and receive another burger absolutely FREE!
-
-        </p>
-
-        <!-- Countdown -->
-
-        <div class="grid grid-cols-4 gap-4 mt-10">
-
-          <div class="bg-white rounded-2xl py-5 text-center">
-
-            <h3 class="text-3xl font-black text-red-600">
-
-              02
-
-            </h3>
-
-            <p class="text-gray-500 text-sm">
-
-              Days
-
-            </p>
-
-          </div>
-
-          <div class="bg-white rounded-2xl py-5 text-center">
-
-            <h3 class="text-3xl font-black text-red-600">
-
-              18
-
-            </h3>
-
-            <p class="text-gray-500 text-sm">
-
-              Hours
-
-            </p>
-
-          </div>
-
-          <div class="bg-white rounded-2xl py-5 text-center">
-
-            <h3 class="text-3xl font-black text-red-600">
-
-              45
-
-            </h3>
-
-            <p class="text-gray-500 text-sm">
-
-              Minutes
-
-            </p>
-
-          </div>
-
-          <div class="bg-white rounded-2xl py-5 text-center">
-
-            <h3 class="text-3xl font-black text-red-600">
-
-              12
-
-            </h3>
-
-            <p class="text-gray-500 text-sm">
-
-              Seconds
-
-            </p>
-
-          </div>
-
-        </div>
-
-        <!-- Button -->
-
-        <button
-          class="mt-10 btn bg-orange-500 hover:bg-orange-600 border-none rounded-full px-8 h-14 text-white text-lg">
-
-          🍔 Grab The Deal
-
-        </button>
-
-      </div>
-
-      <!-- ================= Right ================= -->
-
-      <div class="relative flex justify-center">
-
-        <!-- Glow -->
-
-        <div
-          class="absolute w-80 h-80 lg:w-[500px] lg:h-[500px]
-          bg-orange-400 rounded-full blur-[120px] opacity-30">
-        </div>
-
-        <!-- Image -->
-
-        <img
-          src="burgers/Everyday_Lifestyle-removebg-preview.png"
-          alt="Burger"
-          class="relative z-10 w-72 sm:w-96 lg:w-[520px] drop-shadow-2xl">
-
-        <!-- Price Badge -->
-
-        <div
-          class="absolute top-6 right-4 lg:right-10 bg-yellow-400 w-28 h-28 rounded-full flex flex-col items-center justify-center shadow-2xl">
-
-          <span class="text-sm font-bold">
-
-            ONLY
-
-          </span>
-
-          <span class="text-4xl font-black">
-
-            $9
-
-          </span>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-
-<!-- Food Gallery -->
- <section class="py-20 bg-[#FFF8F1]">
-  <div class="max-w-7xl mx-auto px-5">
-
-    <!-- Heading -->
-    <div class="text-center mb-16">
-
-      <p class="text-red-500 text-2xl italic font-semibold">
+      <p class="text-red-500 text-xl md:text-2xl italic font-extrabold">
         Food Showcase
       </p>
 
-      <h2 class="text-4xl md:text-6xl font-black mt-2">
+      <h2 class="text-4xl md:text-5xl lg:text-6xl font-griffy mt-2">
         Let's See Our
         <span class="text-red-600">Fast Food</span>
       </h2>
@@ -1280,1520 +1621,1562 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
     </div>
 
-    <!-- Gallery -->
-    <div class="grid grid-cols-1 lg:grid-cols-3 gap-5">
 
-      <!-- Left -->
-      <div class="overflow-hidden rounded-3xl group h-[520px]">
-        <img
-          src="burgers/burger.jpg"
-          class="w-full h-full object-cover transition duration-500 group-hover:scale-110"
-          alt="">
-      </div>
+    <!-- Food Gallery -->
+    <div class="max-w-7xl mx-auto
+           grid grid-cols-2 gap-4
 
-      <!-- Middle -->
-      <div class="grid grid-rows-2 gap-5">
+           lg:grid-cols-3
+           lg:grid-rows-[250px_250px]
+           lg:gap-5">
 
-        <div class="relative overflow-hidden rounded-3xl group h-[250px]">
 
-          <img
-            src="Pizza/pizza.jpg"
-            class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
+      <!-- ================= BURGER ================= -->
+      <div class="relative overflow-hidden rounded-3xl group
+             h-[220px]
 
-          <div
-            class="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 duration-300 flex items-end p-6">
+             lg:h-full
+             lg:row-span-2">
 
-            <h3 class="text-white text-2xl font-bold">
-              Wood Fired Pizza
-            </h3>
+        <img src="burgers/FOOD ADVERTISING PHOTOGRAPHY  OXIYAN STUDIO.jpeg" alt="Burger" class="w-full h-full object-cover
+               transition duration-500
+               group-hover:scale-110">
 
-          </div>
+        <div class="absolute inset-0 bg-black/40 opacity-0
+               group-hover:opacity-100
+               transition duration-300
+               flex items-end p-4 lg:p-6">
 
-        </div>
-
-        <div class="overflow-hidden rounded-3xl group h-[250px]">
-
-          <img
-            src="desserts/donut.jpg"
-            class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-
-        </div>
-
-      </div>
-
-      <!-- Right -->
-      <div class="grid grid-rows-2 gap-5">
-
-        <div class="overflow-hidden rounded-3xl group h-[250px]">
-
-          <img
-            src="burgers/chicken-burger.jpg"
-            class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-
-        </div>
-
-        <div class="overflow-hidden rounded-3xl group h-[250px]">
-
-          <img
-            src="Wraps/steak.jpg"
-            class="w-full h-full object-cover transition duration-500 group-hover:scale-110">
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- Restaurant History Section -->
-<section class="bg-[#FFF8F2] py-24">
-  <div class="max-w-6xl mx-auto px-6">
-
-    <!-- Heading -->
-    <div class="text-center mb-20">
-      <span class="text-red-500 font-semibold italic">
-        Our Journey
-      </span>
-
-      <h2 class="text-5xl font-bold mt-2">
-        A History of
-        <span class="text-red-500">Restaurant</span>
-      </h2>
-
-      <p class="text-gray-500 mt-4 max-w-xl mx-auto">
-        From humble beginnings to the city's most beloved restaurant —
-        every chapter written with passion.
-      </p>
-    </div>
-
-    <!-- Timeline -->
-    <div class="relative">
-
-      <!-- Center Line -->
-      <div class="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 w-1 h-full bg-orange-300"></div>
-
-      <!-- Item 1 -->
-      <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
-
-        <div class="text-right">
-          <span class="text-red-500 text-xl font-bold">2012</span>
-          <h3 class="text-2xl font-bold mt-2">
-            Evolution of Restaurant
-          </h3>
-          <p class="text-gray-600 mt-3">
-            Started as a small street food stall and quickly became
-            famous for fresh handmade recipes.
-          </p>
-        </div>
-
-        <div class="relative md:pl-16">
-          <div
-            class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Item 2 -->
-      <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
-
-        <div></div>
-
-        <div class="relative md:pl-16">
-          <div
-            class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
-          </div>
-
-          <span class="text-red-500 text-xl font-bold">2015</span>
-
-          <h3 class="text-2xl font-bold mt-2">
-            Fine Dining & The Concept
-          </h3>
-
-          <p class="text-gray-600 mt-3">
-            Expanded the restaurant with premium dining and signature
-            recipes prepared by expert chefs.
-          </p>
-        </div>
-
-      </div>
-
-      <!-- Item 3 -->
-      <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
-
-        <div class="text-right">
-          <span class="text-red-500 text-xl font-bold">2019</span>
-
-          <h3 class="text-2xl font-bold mt-2">
-            Modern Fast Food Origins
-          </h3>
-
-          <p class="text-gray-600 mt-3">
-            Added burgers, pizza, wraps and signature fast food while
-            maintaining authentic taste.
-          </p>
-        </div>
-
-        <div class="relative md:pl-16">
-          <div
-            class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Item 4 -->
-      <div class="grid md:grid-cols-2 gap-10 items-center relative">
-
-        <div></div>
-
-        <div class="relative md:pl-16">
-
-          <div
-            class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
-          </div>
-
-          <span class="text-red-500 text-xl font-bold">2026</span>
-
-          <h3 class="text-2xl font-bold mt-2">
-            National Expansion
-          </h3>
-
-          <p class="text-gray-600 mt-3">
-            Serving thousands of happy customers through restaurants
-            and online delivery across the country.
-          </p>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-</section>
-
-<!-- ================== Expert Chefs ================== -->
-<section class="py-20 bg-[#FFF8F2]">
-    <div class="max-w-7xl mx-auto px-5">
-
-        <!-- Heading -->
-        <div class="text-center mb-14">
-            <p class="text-red-500 italic text-lg font-medium">
-                The Culinary Team
+          <div>
+            <p class="text-orange-400 text-sm font-semibold">
+              Burger
             </p>
 
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
-                Meet Our Expert
-                <span class="text-red-500">Chefs</span>
-            </h2>
-
-            <div class="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
-        </div>
-
-        <!-- Cards -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-
-            <!-- Card -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
-
-                <div class="overflow-hidden">
-                    <img src="images/chef1.jpg"
-                        class="w-full h-72 object-cover group-hover:scale-110 duration-500">
-                </div>
-
-                <div class="text-center py-6">
-
-                    <h3 class="text-xl font-bold">
-                        Alice Mortel
-                    </h3>
-
-                    <p class="uppercase text-red-500 text-sm font-semibold mt-1">
-                        Head Chef
-                    </p>
-
-                    <p class="text-gray-500 text-sm mt-2">
-                        12 Years Experience
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Card -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
-
-                <div class="overflow-hidden">
-                    <img src="images/chef2.jpg"
-                        class="w-full h-72 object-cover group-hover:scale-110 duration-500">
-                </div>
-
-                <div class="text-center py-6">
-
-                    <h3 class="text-xl font-bold">
-                        Michael Corn
-                    </h3>
-
-                    <p class="uppercase text-red-500 text-sm font-semibold mt-1">
-                        Grill Master
-                    </p>
-
-                    <p class="text-gray-500 text-sm mt-2">
-                        8 Years Experience
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Card -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
-
-                <div class="overflow-hidden">
-                    <img src="images/chef3.jpg"
-                        class="w-full h-72 object-cover group-hover:scale-110 duration-500">
-                </div>
-
-                <div class="text-center py-6">
-
-                    <h3 class="text-xl font-bold">
-                        Faz Chowdel
-                    </h3>
-
-                    <p class="uppercase text-red-500 text-sm font-semibold mt-1">
-                        Pastry Chef
-                    </p>
-
-                    <p class="text-gray-500 text-sm mt-2">
-                        10 Years Experience
-                    </p>
-
-                </div>
-
-            </div>
-
-            <!-- Card -->
-            <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
-
-                <div class="overflow-hidden">
-                    <img src="images/chef4.jpg"
-                        class="w-full h-72 object-cover group-hover:scale-110 duration-500">
-                </div>
-
-                <div class="text-center py-6">
-
-                    <h3 class="text-xl font-bold">
-                        William Latnum
-                    </h3>
-
-                    <p class="uppercase text-red-500 text-sm font-semibold mt-1">
-                        Pizza Artisan
-                    </p>
-
-                    <p class="text-gray-500 text-sm mt-2">
-                        9 Years Experience
-                    </p>
-
-                </div>
-
-            </div>
+            <h3 class="text-white text-xl lg:text-3xl font-bold">
+              Special Burger
+            </h3>
+          </div>
 
         </div>
+
+      </div>
+
+
+      <!-- ================= PIZZA ================= -->
+      <div class="relative overflow-hidden rounded-3xl group
+             h-[220px]
+
+             lg:h-full">
+
+        <img src="Pizza/Colorful pizza slice melting cheese tomato olives _ Premium AI-generated image.jpeg" alt="Pizza"
+          class="w-full h-full object-cover
+               transition duration-500
+               group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/40 opacity-0
+               group-hover:opacity-100
+               transition duration-300
+               flex items-end p-4 lg:p-6">
+
+          <h3 class="text-white text-xl lg:text-2xl font-bold">
+            Wood Fired Pizza
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= DESSERT ================= -->
+      <div class="relative overflow-hidden rounded-3xl group
+             h-[220px]
+
+             lg:h-full">
+
+        <img src="desserts/what croissant will you take with your morning coffee.jpeg" alt="Dessert" class="w-full h-full object-cover
+               transition duration-500
+               group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/40 opacity-0
+               group-hover:opacity-100
+               transition duration-300
+               flex items-end p-4 lg:p-6">
+
+          <h3 class="text-white text-xl lg:text-2xl font-bold">
+            Fresh Croissant
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= PASTA ================= -->
+      <div class="relative overflow-hidden rounded-3xl group
+             h-[220px]
+
+             lg:h-full">
+
+        <img src="pasta/¡El plato que nunca falla y a todos encanta! 🍝❤️✨.jpeg" alt="Pasta" class="w-full h-full object-cover
+               transition duration-500
+               group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/40 opacity-0
+               group-hover:opacity-100
+               transition duration-300
+               flex items-end p-4 lg:p-6">
+
+          <h3 class="text-white text-xl lg:text-2xl font-bold">
+            Creamy Pasta
+          </h3>
+
+        </div>
+
+      </div>
+
+
+      <!-- ================= WRAP ================= -->
+      <div class="relative overflow-hidden rounded-3xl group
+             h-[220px]
+
+             lg:h-full">
+
+        <img
+          src="Wraps/Вегетарианская упаковка, наполненная курицей и свежими овощами, выделенными на белом _ Премиум AI-сгенерированное изображение.jpeg"
+          alt="Wrap" class="w-full h-full object-cover
+               transition duration-500
+               group-hover:scale-110">
+
+        <div class="absolute inset-0 bg-black/40 opacity-0
+               group-hover:opacity-100
+               transition duration-300
+               flex items-end p-4 lg:p-6">
+
+          <div>
+            <p class="text-orange-400 text-sm font-semibold">
+              Wrap
+            </p>
+
+            <h3 class="text-white text-xl lg:text-2xl font-bold">
+              Fresh Chicken Wrap
+            </h3>
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
-</section>
 
-<!-- ================= Opening Hours ================= -->
-<section class="py-24 bg-[#1F6A4C] relative overflow-hidden">
+  </section>
+
+
+
+  <!-- Restaurant History Section -->
+  <section class="bg-[#FFF8F2] py-24">
+    <div class="max-w-6xl mx-auto px-6">
+
+      <!-- Heading -->
+      <div class="text-center mb-20">
+        <span class="text-red-500 font-extrabold italic">
+          Our Journey
+        </span>
+
+        <h2 class="text-5xl font-griffy mt-2">
+          A History of
+          <span class="text-red-500">Restaurant</span>
+        </h2>
+
+        <p class="text-gray-500 mt-4 max-w-xl mx-auto">
+          From humble beginnings to the city's most beloved restaurant —
+          every chapter written with passion.
+        </p>
+      </div>
+
+      <!-- Timeline -->
+      <div class="relative">
+
+        <!-- Center Line -->
+        <div class="hidden md:block absolute left-1/2 top-0 -translate-x-1/2 w-1 h-full bg-orange-300"></div>
+
+        <!-- Item 1 -->
+        <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
+
+          <div class="text-right">
+            <span class="text-red-500 text-xl font-bold">2012</span>
+            <h3 class="text-2xl font-bold mt-2">
+              Evolution of Restaurant
+            </h3>
+            <p class="text-gray-600 mt-3">
+              Started as a small street food stall and quickly became
+              famous for fresh handmade recipes.
+            </p>
+          </div>
+
+          <div class="relative md:pl-16">
+            <div
+              class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Item 2 -->
+        <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
+
+          <div></div>
+
+          <div class="relative md:pl-16">
+            <div
+              class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
+            </div>
+
+            <span class="text-red-500 text-xl font-bold">2015</span>
+
+            <h3 class="text-2xl font-bold mt-2">
+              Fine Dining & The Concept
+            </h3>
+
+            <p class="text-gray-600 mt-3">
+              Expanded the restaurant with premium dining and signature
+              recipes prepared by expert chefs.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- Item 3 -->
+        <div class="grid md:grid-cols-2 gap-10 items-center mb-16 relative">
+
+          <div class="text-right">
+            <span class="text-red-500 text-xl font-bold">2019</span>
+
+            <h3 class="text-2xl font-bold mt-2">
+              Modern Fast Food Origins
+            </h3>
+
+            <p class="text-gray-600 mt-3">
+              Added burgers, pizza, wraps and signature fast food while
+              maintaining authentic taste.
+            </p>
+          </div>
+
+          <div class="relative md:pl-16">
+            <div
+              class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Item 4 -->
+        <div class="grid md:grid-cols-2 gap-10 items-center relative">
+
+          <div></div>
+
+          <div class="relative md:pl-16">
+
+            <div
+              class="hidden md:block absolute -left-[35px] top-5 w-5 h-5 bg-white border-4 border-red-500 rounded-full">
+            </div>
+
+            <span class="text-red-500 text-xl font-bold">2026</span>
+
+            <h3 class="text-2xl font-bold mt-2">
+              National Expansion
+            </h3>
+
+            <p class="text-gray-600 mt-3">
+              Serving thousands of happy customers through restaurants
+              and online delivery across the country.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--  Expert Chefs  -->
+  <section id="chef" class="py-20 bg-[#FFF8F2]">
+    <div class="max-w-7xl mx-auto px-5">
+
+      <!-- Heading -->
+      <div class="text-center mb-14">
+        <p class="text-red-500 italic text-lg font-extrabold">
+          The Culinary Team
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-griffy text-gray-900 mt-2">
+          Meet Our Expert
+          <span class="text-red-500">Chefs</span>
+        </h2>
+
+        <div class="w-16 h-1 bg-red-500 rounded-full mx-auto mt-4"></div>
+      </div>
+
+      <!-- Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+        <!-- Card -->
+        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
+
+          <div class="overflow-hidden">
+            <img src="chef/1094515515697280220.jpeg"
+              class="w-full h-72 object-cover group-hover:scale-110 duration-500">
+          </div>
+
+          <div class="text-center py-6">
+
+            <h3 class="text-xl font-bold">
+              Alice Mortel
+            </h3>
+
+            <p class="uppercase text-red-500 text-sm font-semibold mt-1">
+              Head Chef
+            </p>
+
+            <p class="text-gray-500 text-sm mt-2">
+              12 Years Experience
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Card -->
+        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
+
+          <div class="overflow-hidden">
+            <img src="chef/Calendário Editorial _ Riviera Pães Congelados.jpeg"
+              class="w-full h-72 object-cover group-hover:scale-110 duration-500">
+          </div>
+
+          <div class="text-center py-6">
+
+            <h3 class="text-xl font-bold">
+              Michael Corn
+            </h3>
+
+            <p class="uppercase text-red-500 text-sm font-semibold mt-1">
+              Grill Master
+            </p>
+
+            <p class="text-gray-500 text-sm mt-2">
+              8 Years Experience
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Card -->
+        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
+
+          <div class="overflow-hidden">
+            <img src="chef/Feliz Dia Do Trabalhador 01 de Maio Social Media PSD Editável (1).jpeg"
+              class="w-full h-72 object-cover group-hover:scale-110 duration-500">
+          </div>
+
+          <div class="text-center py-6">
+
+            <h3 class="text-xl font-bold">
+              Faz Chowdel
+            </h3>
+
+            <p class="uppercase text-red-500 text-sm font-semibold mt-1">
+              Pastry Chef
+            </p>
+
+            <p class="text-gray-500 text-sm mt-2">
+              10 Years Experience
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- Card -->
+        <div class="bg-white rounded-2xl shadow-md hover:shadow-xl duration-300 overflow-hidden group">
+
+          <div class="overflow-hidden">
+            <img src="chef/Sushi Chefs Wanted!.jpeg"
+              class="w-full h-72 object-cover group-hover:scale-110 duration-500">
+          </div>
+
+          <div class="text-center py-6">
+
+            <h3 class="text-xl font-bold">
+              William Latnum
+            </h3>
+
+            <p class="uppercase text-red-500 text-sm font-semibold mt-1">
+              Pizza Artisan
+            </p>
+
+            <p class="text-gray-500 text-sm mt-2">
+              9 Years Experience
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= Opening Hours ================= -->
+  <section id="res" class="py-24 bg-[#1F6A4C] relative overflow-hidden">
 
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-10"
-        style="background-image: repeating-linear-gradient(45deg, white 0px, white 2px, transparent 2px, transparent 18px);">
+      style="background-image: repeating-linear-gradient(45deg, white 0px, white 2px, transparent 2px, transparent 18px);">
     </div>
 
     <div class="relative max-w-7xl mx-auto px-6">
 
-        <!-- Heading -->
-        <div class="text-center mb-16">
+      <!-- Heading -->
+      <div class="text-center mb-16">
 
-            <p class="text-green-200 italic text-xl">
-                Opening Hours
-            </p>
-
-            <h2 class="text-5xl font-bold text-white mt-2">
-                We're Open
-                <span class="text-yellow-400">
-                    For You
-                </span>
-            </h2>
-
-            <div class="w-20 h-1 bg-orange-500 mx-auto rounded-full mt-5"></div>
-
-        </div>
-
-        <!-- Content -->
-        <div class="grid lg:grid-cols-3 gap-8 items-center">
-
-            <!-- Hours -->
-            <div
-                class="bg-white/10 backdrop-blur-md border border-white/10 rounded-3xl p-8 text-white">
-
-                <div class="space-y-6">
-
-                    <div class="flex justify-between border-b border-white/10 pb-4">
-                        <span>📅 Monday - Tuesday</span>
-                        <span class="text-red-400 font-semibold">
-                            Closed
-                        </span>
-                    </div>
-
-                    <div class="flex justify-between border-b border-white/10 pb-4">
-                        <span>📅 Wednesday - Thursday</span>
-                        <span class="text-green-300">
-                            🟢 09:00 AM - 10:00 PM
-                        </span>
-                    </div>
-
-                    <div class="flex justify-between border-b border-white/10 pb-4">
-                        <span>📅 Friday</span>
-                        <span class="text-green-300">
-                            🟢 09:00 AM - 11:00 PM
-                        </span>
-                    </div>
-
-                    <div class="flex justify-between border-b border-white/10 pb-4">
-                        <span>📅 Saturday</span>
-                        <span class="text-green-300">
-                            🟢 10:00 AM - 11:30 PM
-                        </span>
-                    </div>
-
-                    <div class="flex justify-between">
-                        <span>📅 Sunday</span>
-                        <span class="text-green-300">
-                            🟢 11:00 AM - 09:00 PM
-                        </span>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- Order Card -->
-            <div
-                class="bg-red-600 rounded-3xl text-center py-12 px-8 shadow-2xl shadow-red-900/40">
-
-                <div class="text-6xl mb-4">
-                    🚚
-                </div>
-
-                <h3 class="text-4xl font-bold text-white">
-                    Order Online
-                </h3>
-
-                <p class="text-red-100 mt-4">
-                    Get hot food delivered in 25 minutes
-                </p>
-
-                <button
-                    class="mt-8 px-8 py-3 bg-white rounded-full font-semibold text-red-600 hover:bg-gray-100 duration-300">
-                    Order Now →
-                </button>
-
-            </div>
-
-            <!-- Contact -->
-            <div
-                class="bg-white/10 backdrop-blur-md border border-white/10 rounded-3xl p-8 text-white">
-
-                <h3 class="text-2xl font-bold mb-8">
-                    📍 Find Us
-                </h3>
-
-                <div class="space-y-6">
-
-                    <div class="flex justify-between">
-                        <span>📍 Address</span>
-                        <span>42 Flavor Street, NY</span>
-                    </div>
-
-                    <div class="flex justify-between">
-                        <span>📞 Phone</span>
-                        <span>+1 (800) 123-4567</span>
-                    </div>
-
-                    <div class="flex justify-between">
-                        <span>✉️ Email</span>
-                        <span>hello@sarabfood.com</span>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<!-- ================= Customer Feedback ================= -->
-<section class="py-20 bg-white">
-  <div class="max-w-7xl mx-auto px-5">
-
-    <!-- Heading -->
-    <div class="text-center mb-16">
-      <p class="text-red-500 italic text-xl font-medium">
-        What People Say
-      </p>
-
-      <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
-        Our Customers
-        <span class="text-red-500">Feedback</span>
-      </h2>
-
-      <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
-    </div>
-
-    <!-- Testimonial Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-      <!-- Card -->
-      <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
-
-        <div class="flex justify-between items-center mb-5">
-          <div class="text-yellow-400 text-xl">
-            ★★★★★
-          </div>
-
-          <div class="text-red-100 text-5xl font-bold">
-            "
-          </div>
-        </div>
-
-        <p class="text-gray-600 leading-8 mb-8">
-          Ordered delivery and the food arrived hot and fresh in
-          22 minutes. Portions are generous. Sarab has become my
-          go-to comfort food spot without question.
+        <p class="text-green-200  italic text-xl   font-extrabold">
+          Opening Hours
         </p>
 
-        <div class="flex items-center gap-4">
+        <h2 class="text-5xl font-griffy text-white mt-2">
+          We're Open
+          <span class="text-yellow-400">
+            For You
+          </span>
+        </h2>
 
-          <img src="images/customer1.jpg"
-            class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
-
-          <div>
-            <h4 class="font-bold text-lg">
-              Cameron Fox
-            </h4>
-
-            <p class="text-gray-400 text-sm">
-              Food Blogger
-            </p>
-          </div>
-
-        </div>
+        <div class="w-20 h-1 bg-orange-500 mx-auto rounded-full mt-5"></div>
 
       </div>
 
-      <!-- Card -->
-      <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
+      <!-- Content -->
+      <div class="grid lg:grid-cols-3 gap-8 items-center">
 
-        <div class="flex justify-between items-center mb-5">
-          <div class="text-yellow-400 text-xl">
-            ★★★★★
-          </div>
+        <!-- Hours -->
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-3xl p-8 text-white">
 
-          <div class="text-red-100 text-5xl font-bold">
-            "
-          </div>
-        </div>
+          <div class="space-y-6">
 
-        <p class="text-gray-600 leading-8 mb-8">
-          The truffle pasta blew my mind. I didn't expect
-          that quality from a fast food place. Great ambience,
-          super friendly staff. Highly recommended!
-        </p>
-
-        <div class="flex items-center gap-4">
-
-          <img src="images/customer2.jpg"
-            class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
-
-          <div>
-            <h4 class="font-bold text-lg">
-              Priya Sharma
-            </h4>
-
-            <p class="text-gray-400 text-sm">
-              Food Enthusiast
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!-- Card -->
-      <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
-
-        <div class="flex justify-between items-center mb-5">
-          <div class="text-yellow-400 text-xl">
-            ★★★★★
-          </div>
-
-          <div class="text-red-100 text-5xl font-bold">
-            "
-          </div>
-        </div>
-
-        <p class="text-gray-600 leading-8 mb-8">
-          Catered our office party of 50 people and everything
-          was flawless. Fresh, delicious, on time and beautifully
-          presented. Absolutely five stars!
-        </p>
-
-        <div class="flex items-center gap-4">
-
-          <img src="images/customer3.jpg"
-            class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
-
-          <div>
-            <h4 class="font-bold text-lg">
-              David Park
-            </h4>
-
-            <p class="text-gray-400 text-sm">
-              Corporate Client
-            </p>
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <!-- Slider Dots -->
-    <div class="flex justify-center mt-12 gap-3">
-
-      <span class="w-3 h-3 rounded-full bg-gray-300"></span>
-
-      <span class="w-3 h-3 rounded-full bg-blue-500"></span>
-
-      <span class="w-3 h-3 rounded-full bg-gray-300"></span>
-
-      <span class="w-3 h-3 rounded-full bg-gray-300"></span>
-
-    </div>
-
-  </div>
-</section>
-<!-- ================= Reservation Section ================= -->
-<section class="py-24 bg-[#FFF8F2]">
-  <div class="max-w-7xl mx-auto px-5">
-
-    <!-- Heading -->
-    <div class="text-center mb-16">
-      <p class="text-red-500 italic text-lg font-medium">
-        Book a Table
-      </p>
-
-      <h2 class="text-5xl font-bold text-gray-900 mt-2">
-        Make a
-        <span class="text-red-500">Reservation</span>
-      </h2>
-
-      <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
-
-      <p class="text-gray-500 mt-6 max-w-xl mx-auto leading-8">
-        Reserve your table for a memorable dining experience.
-        We recommend booking 24 hours in advance for weekend evenings.
-      </p>
-    </div>
-
-    <!-- Content -->
-    <div class="grid lg:grid-cols-3 gap-8">
-
-      <!-- Contact Card -->
-      <div class="bg-[#1F1F1F] rounded-3xl p-8 text-white">
-
-        <h3 class="text-3xl font-bold mb-3">
-          Contact Info
-        </h3>
-
-        <p class="text-gray-400 mb-8">
-          We're happy to help you plan the perfect dining experience.
-        </p>
-
-        <div class="space-y-6">
-
-          <!-- Item -->
-          <div class="flex items-center gap-4">
-
-            <div
-              class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-              🕒
+            <div class="flex justify-between border-b border-white/10 pb-4">
+              <span>📅 Monday - Tuesday</span>
+              <span class="text-red-400 font-semibold">
+                Closed
+              </span>
             </div>
 
-            <div>
-              <h4 class="font-semibold uppercase text-sm">
-                Opening Hours
-              </h4>
-
-              <p class="text-gray-300">
-                Wed – Sun, 9 AM – 11 PM
-              </p>
+            <div class="flex justify-between border-b border-white/10 pb-4">
+              <span>📅 Wednesday - Thursday</span>
+              <span class="text-green-300">
+                🟢 09:00 AM - 10:00 PM
+              </span>
             </div>
 
-          </div>
-
-          <!-- Item -->
-          <div class="flex items-center gap-4">
-
-            <div
-              class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-              📞
+            <div class="flex justify-between border-b border-white/10 pb-4">
+              <span>📅 Friday</span>
+              <span class="text-green-300">
+                🟢 09:00 AM - 11:00 PM
+              </span>
             </div>
 
-            <div>
-              <h4 class="font-semibold uppercase text-sm">
-                Call For Booking
-              </h4>
-
-              <p class="text-gray-300">
-                +1 (800) 123-4567
-              </p>
+            <div class="flex justify-between border-b border-white/10 pb-4">
+              <span>📅 Saturday</span>
+              <span class="text-green-300">
+                🟢 10:00 AM - 11:30 PM
+              </span>
             </div>
 
-          </div>
-
-          <!-- Item -->
-          <div class="flex items-center gap-4">
-
-            <div
-              class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-              👥
-            </div>
-
-            <div>
-              <h4 class="font-semibold uppercase text-sm">
-                Group Dining
-              </h4>
-
-              <p class="text-gray-300">
-                Special menus for 10+ guests
-              </p>
-            </div>
-
-          </div>
-
-          <!-- Item -->
-          <div class="flex items-center gap-4">
-
-            <div
-              class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-              📍
-            </div>
-
-            <div>
-              <h4 class="font-semibold uppercase text-sm">
-                Location
-              </h4>
-
-              <p class="text-gray-300">
-                42 Flavor Street, NY
-              </p>
+            <div class="flex justify-between">
+              <span>📅 Sunday</span>
+              <span class="text-green-300">
+                🟢 11:00 AM - 09:00 PM
+              </span>
             </div>
 
           </div>
 
         </div>
 
-      </div>
+        <!-- Order Card -->
+        <div class="bg-red-600 rounded-3xl text-center py-12 px-8 shadow-2xl shadow-red-900/40">
 
-      <!-- Reservation Form -->
-      <div class="lg:col-span-2 bg-white rounded-3xl shadow-xl p-8">
-
-        <form class="grid md:grid-cols-2 gap-6">
-
-          <div>
-            <label class="font-semibold text-sm">
-              Full Name *
-            </label>
-
-            <input
-              type="text"
-              placeholder="John Doe"
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+          <div class="text-6xl mb-4">
+            🚚
           </div>
 
-          <div>
-            <label class="font-semibold text-sm">
-              Phone Number *
-            </label>
+          <h3 class="text-4xl font-bold text-white">
+            Order Online
+          </h3>
 
-            <input
-              type="tel"
-              placeholder="+1 (800) 000-0000"
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-          </div>
+          <p class="text-red-100 mt-4">
+            Get hot food delivered in 25 minutes
+          </p>
 
-          <div>
-            <label class="font-semibold text-sm">
-              Email Address *
-            </label>
+          <a href="order.html"> <button
+              class="mt-8 px-8 py-3 bg-white rounded-full font-semibold text-red-600 hover:bg-gray-100 duration-300">
+              Order Now →
+            </button> </a>
 
-            <input
-              type="email"
-              placeholder="you@email.com"
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-          </div>
 
-          <div>
-            <label class="font-semibold text-sm">
-              Number of Guests *
-            </label>
+        </div>
 
-            <select
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+        <!-- Contact -->
+        <div class="bg-white/10 backdrop-blur-md border border-white/10 rounded-3xl p-8 text-white">
 
-              <option>1 Person</option>
-              <option>2 Persons</option>
-              <option>3 Persons</option>
-              <option>4 Persons</option>
-              <option>5+ Persons</option>
+          <h3 class="text-2xl font-bold mb-8">
+            📍 Find Us
+          </h3>
 
-            </select>
-          </div>
+          <div class="space-y-6">
 
-          <div>
-            <label class="font-semibold text-sm">
-              Date *
-            </label>
+            <div class="flex justify-between">
+              <span>📍 Address</span>
+              <span>42 Flavor Street, NY</span>
+            </div>
 
-            <input
-              type="date"
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-          </div>
+            <div class="flex justify-between">
+              <span>📞 Phone</span>
+              <span>+1 (800) 123-4567</span>
+            </div>
 
-          <div>
-            <label class="font-semibold text-sm">
-              Time *
-            </label>
-
-            <select
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-
-              <option>09:00 AM</option>
-              <option>10:00 AM</option>
-              <option>11:00 AM</option>
-              <option>12:00 PM</option>
-              <option>07:00 PM</option>
-              <option>08:00 PM</option>
-
-            </select>
-          </div>
-
-          <div class="md:col-span-2">
-
-            <label class="font-semibold text-sm">
-              Special Requests
-            </label>
-
-            <textarea
-              rows="4"
-              placeholder="Allergies, dietary needs, special occasions..."
-              class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500"></textarea>
+            <div class="flex justify-between">
+              <span>✉️ Email</span>
+              <span>hello@sarabfood.com</span>
+            </div>
 
           </div>
 
-          <div class="md:col-span-2">
-
-            <button
-              class="w-full py-4 rounded-full bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold text-lg hover:scale-[1.02] duration-300 shadow-lg shadow-red-300">
-
-              📅 Confirm Reservation
-
-            </button>
-
-          </div>
-
-        </form>
+        </div>
 
       </div>
 
     </div>
 
-  </div>
-</section>
-<!-- ================= Blog Section ================= -->
-<section class="py-24 bg-[#FFF8F2]">
+  </section>
+
+  <!-- ================= Customer Feedback ================= -->
+  <section id="revu" class="py-20 bg-white">
     <div class="max-w-7xl mx-auto px-5">
 
-        <!-- Heading -->
-        <div class="text-center mb-16">
-            <p class="text-red-500 italic text-lg font-medium">
-                News & Updates
-            </p>
+      <!-- Heading -->
+      <div class="text-center mb-16">
+        <p class="text-red-500 italic text-xl font-extrabold">
+          What People Say
+        </p>
 
-            <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mt-2">
-                Our Latest
-                <span class="text-red-500">Blog</span>
-                Posts
-            </h2>
+        <h2 class="text-4xl md:text-5xl font-griffy text-gray-900 mt-2">
+          Our Customers
+          <span class="text-red-500">Feedback</span>
+        </h2>
 
-            <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
-        </div>
+        <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
+      </div>
 
-        <!-- Blog Cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <!-- Testimonial Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-            <!-- Blog Card -->
-            <article
-                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
+        <!-- Card -->
+        <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
 
-                <!-- Image -->
-                <div class="relative overflow-hidden">
+          <div class="flex justify-between items-center mb-5">
+            <div class="text-yellow-400 text-xl">
+              ★★★★★
+            </div>
 
-                    <img src="images/blog-1.jpg"
-                        class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+            <div class="text-red-100 text-5xl font-bold">
+              "
+            </div>
+          </div>
 
-                    <!-- Date -->
-                    <div
-                        class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
-                        <h3 class="text-xl font-bold leading-none">14</h3>
-                        <p class="uppercase text-xs mt-1">Mar</p>
-                    </div>
+          <p class="text-gray-600 leading-8 mb-8">
+            Ordered delivery and the food arrived hot and fresh in
+            22 minutes. Portions are generous. Sarab has become my
+            go-to comfort food spot without question.
+          </p>
 
-                </div>
+          <div class="flex items-center gap-4">
 
-                <!-- Content -->
-                <div class="p-6">
+            <img src="images/customer1.jpg" class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
 
-                    <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
-                        Food & Health
-                    </span>
+            <div>
+              <h4 class="font-bold text-lg">
+                Cameron Fox
+              </h4>
 
-                    <h3
-                        class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
-                        Healthy Fast Food: A Myth or Beautiful Reality
-                    </h3>
+              <p class="text-gray-400 text-sm">
+                Food Blogger
+              </p>
+            </div>
 
-                    <!-- Meta -->
-                    <div
-                        class="flex items-center gap-5 text-gray-400 text-sm mt-5">
-
-                        <span>👤 James Writer</span>
-
-                        <span>💬 24 Comments</span>
-
-                    </div>
-
-                    <a href="#"
-                        class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
-                        Read More →
-                    </a>
-
-                </div>
-
-            </article>
-
-            <!-- Blog Card -->
-            <article
-                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
-
-                <div class="relative overflow-hidden">
-
-                    <img src="images/blog-2.jpg"
-                        class="w-full h-64 object-cover group-hover:scale-110 duration-500">
-
-                    <div
-                        class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
-                        <h3 class="text-xl font-bold leading-none">28</h3>
-                        <p class="uppercase text-xs mt-1">Feb</p>
-                    </div>
-
-                </div>
-
-                <div class="p-6">
-
-                    <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
-                        Food Science
-                    </span>
-
-                    <h3
-                        class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
-                        Is Fast Food Getting Healthier? Here's What We Found
-                    </h3>
-
-                    <div
-                        class="flex items-center gap-5 text-gray-400 text-sm mt-5">
-
-                        <span>👤 Sarah Grain</span>
-
-                        <span>💬 18 Comments</span>
-
-                    </div>
-
-                    <a href="#"
-                        class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
-                        Read More →
-                    </a>
-
-                </div>
-
-            </article>
-
-            <!-- Blog Card -->
-            <article
-                class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
-
-                <div class="relative overflow-hidden">
-
-                    <img src="images/blog-3.jpg"
-                        class="w-full h-64 object-cover group-hover:scale-110 duration-500">
-
-                    <div
-                        class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
-                        <h3 class="text-xl font-bold leading-none">05</h3>
-                        <p class="uppercase text-xs mt-1">Jan</p>
-                    </div>
-
-                </div>
-
-                <div class="p-6">
-
-                    <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
-                        Recipes
-                    </span>
-
-                    <h3
-                        class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
-                        Innovative Hot Chickpeas Flake Crackin' Recipe at Home
-                    </h3>
-
-                    <div
-                        class="flex items-center gap-5 text-gray-400 text-sm mt-5">
-
-                        <span>👤 Chef Marcus</span>
-
-                        <span>💬 32 Comments</span>
-
-                    </div>
-
-                    <a href="#"
-                        class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
-                        Read More →
-                    </a>
-
-                </div>
-
-            </article>
+          </div>
 
         </div>
+
+        <!-- Card -->
+        <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
+
+          <div class="flex justify-between items-center mb-5">
+            <div class="text-yellow-400 text-xl">
+              ★★★★★
+            </div>
+
+            <div class="text-red-100 text-5xl font-bold">
+              "
+            </div>
+          </div>
+
+          <p class="text-gray-600 leading-8 mb-8">
+            The truffle pasta blew my mind. I didn't expect
+            that quality from a fast food place. Great ambience,
+            super friendly staff. Highly recommended!
+          </p>
+
+          <div class="flex items-center gap-4">
+
+            <img src="images/customer2.jpg" class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
+
+            <div>
+              <h4 class="font-bold text-lg">
+                Priya Sharma
+              </h4>
+
+              <p class="text-gray-400 text-sm">
+                Food Enthusiast
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Card -->
+        <div class="bg-[#FFF7F0] rounded-3xl p-8 shadow-sm hover:shadow-xl transition duration-300">
+
+          <div class="flex justify-between items-center mb-5">
+            <div class="text-yellow-400 text-xl">
+              ★★★★★
+            </div>
+
+            <div class="text-red-100 text-5xl font-bold">
+              "
+            </div>
+          </div>
+
+          <p class="text-gray-600 leading-8 mb-8">
+            Catered our office party of 50 people and everything
+            was flawless. Fresh, delicious, on time and beautifully
+            presented. Absolutely five stars!
+          </p>
+
+          <div class="flex items-center gap-4">
+
+            <img src="images/customer3.jpg" class="w-14 h-14 rounded-full border-2 border-red-500 object-cover">
+
+            <div>
+              <h4 class="font-bold text-lg">
+                David Park
+              </h4>
+
+              <p class="text-gray-400 text-sm">
+                Corporate Client
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Slider Dots -->
+      <div class="flex justify-center mt-12 gap-3">
+
+        <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+
+        <span class="w-3 h-3 rounded-full bg-blue-500"></span>
+
+        <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+
+        <span class="w-3 h-3 rounded-full bg-gray-300"></span>
+
+      </div>
 
     </div>
-</section>
-<!-- ================= Newsletter Section ================= -->
-<section
-    class="relative py-24 overflow-hidden bg-gradient-to-r from-red-600 via-red-700 to-red-900">
+  </section>
+  <!-- ================= Reservation Section ================= -->
+  <section class="py-24 bg-[#FFF8F2]">
+    <div class="max-w-7xl mx-auto px-5">
+
+      <!-- Heading -->
+      <div class="text-center mb-16">
+        <p class="text-red-500 italic text-lg font-extrabold">
+          Book a Table
+        </p>
+
+        <h2 class="text-5xl font-griffy text-gray-900 mt-2">
+          Make a
+          <span class="text-red-500">Reservation</span>
+        </h2>
+
+        <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
+
+        <p class="text-gray-500 mt-6 max-w-xl mx-auto leading-8">
+          Reserve your table for a memorable dining experience.
+          We recommend booking 24 hours in advance for weekend evenings.
+        </p>
+      </div>
+
+      <!-- Content -->
+      <div class="grid lg:grid-cols-3 gap-8">
+
+        <!-- Contact Card -->
+        <div class="bg-[#1F1F1F] rounded-3xl p-8 text-white">
+
+          <h3 class="text-3xl font-bold mb-3">
+            Contact Info
+          </h3>
+
+          <p class="text-gray-400 mb-8">
+            We're happy to help you plan the perfect dining experience.
+          </p>
+
+          <div class="space-y-6">
+
+            <!-- Item -->
+            <div class="flex items-center gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                🕒
+              </div>
+
+              <div>
+                <h4 class="font-semibold uppercase text-sm">
+                  Opening Hours
+                </h4>
+
+                <p class="text-gray-300">
+                  Wed – Sun, 9 AM – 11 PM
+                </p>
+              </div>
+
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-center gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                📞
+              </div>
+
+              <div>
+                <h4 class="font-semibold uppercase text-sm">
+                  Call For Booking
+                </h4>
+
+                <p class="text-gray-300">
+                  +1 (800) 123-4567
+                </p>
+              </div>
+
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-center gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                👥
+              </div>
+
+              <div>
+                <h4 class="font-semibold uppercase text-sm">
+                  Group Dining
+                </h4>
+
+                <p class="text-gray-300">
+                  Special menus for 10+ guests
+                </p>
+              </div>
+
+            </div>
+
+            <!-- Item -->
+            <div class="flex items-center gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                📍
+              </div>
+
+              <div>
+                <h4 class="font-semibold uppercase text-sm">
+                  Location
+                </h4>
+
+                <p class="text-gray-300">
+                  42 Flavor Street, NY
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Reservation Form -->
+        <div class="lg:col-span-2 bg-white rounded-3xl shadow-xl p-8">
+
+          <form class="grid md:grid-cols-2 gap-6">
+
+            <div>
+              <label class="font-semibold text-sm">
+                Full Name *
+              </label>
+
+              <input type="text" placeholder="John Doe"
+                class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="font-semibold text-sm">
+                Phone Number *
+              </label>
+
+              <input type="tel" placeholder="+1 (800) 000-0000"
+                class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="font-semibold text-sm">
+                Email Address *
+              </label>
+
+              <input type="email" placeholder="you@email.com"
+                class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="font-semibold text-sm">
+                Number of Guests *
+              </label>
+
+              <select class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+
+                <option>1 Person</option>
+                <option>2 Persons</option>
+                <option>3 Persons</option>
+                <option>4 Persons</option>
+                <option>5+ Persons</option>
+
+              </select>
+            </div>
+
+            <div>
+              <label class="font-semibold text-sm">
+                Date *
+              </label>
+
+              <input type="date"
+                class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="font-semibold text-sm">
+                Time *
+              </label>
+
+              <select class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+
+                <option>09:00 AM</option>
+                <option>10:00 AM</option>
+                <option>11:00 AM</option>
+                <option>12:00 PM</option>
+                <option>07:00 PM</option>
+                <option>08:00 PM</option>
+
+              </select>
+            </div>
+
+            <div class="md:col-span-2">
+
+              <label class="font-semibold text-sm">
+                Special Requests
+              </label>
+
+              <textarea rows="4" placeholder="Allergies, dietary needs, special occasions..."
+                class="mt-2 w-full border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500"></textarea>
+
+            </div>
+
+            <div class="md:col-span-2">
+
+              <button
+                class="w-full py-4 rounded-full bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold text-lg hover:scale-[1.02] duration-300 shadow-lg shadow-red-300">
+
+                📅 Confirm Reservation
+
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- ================= Blog Section ================= -->
+  <section class="py-24 bg-[#FFF8F2]">
+    <div class="max-w-7xl mx-auto px-5">
+
+      <!-- Heading -->
+      <div class="text-center mb-16">
+        <p class="text-red-500 italic text-lg font-extrabold">
+          News & Updates
+        </p>
+
+        <h2 class="text-4xl md:text-5xl font-griffy text-gray-900 mt-2">
+          Our Latest
+          <span class="text-red-500">Blog</span>
+          Posts
+        </h2>
+
+        <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
+      </div>
+
+      <!-- Blog Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- Blog Card -->
+        <article
+          class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
+
+          <!-- Image -->
+          <div class="relative overflow-hidden">
+
+            <img src="images/blog-1.jpg" class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+
+            <!-- Date -->
+            <div class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
+              <h3 class="text-xl font-bold leading-none">14</h3>
+              <p class="uppercase text-xs mt-1">Mar</p>
+            </div>
+
+          </div>
+
+          <!-- Content -->
+          <div class="p-6">
+
+            <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
+              Food & Health
+            </span>
+
+            <h3 class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
+              Healthy Fast Food: A Myth or Beautiful Reality
+            </h3>
+
+            <!-- Meta -->
+            <div class="flex items-center gap-5 text-gray-400 text-sm mt-5">
+
+              <span>👤 James Writer</span>
+
+              <span>💬 24 Comments</span>
+
+            </div>
+
+            <a href="#" class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
+              Read More →
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- Blog Card -->
+        <article
+          class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
+
+          <div class="relative overflow-hidden">
+
+            <img src="images/blog-2.jpg" class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+
+            <div class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
+              <h3 class="text-xl font-bold leading-none">28</h3>
+              <p class="uppercase text-xs mt-1">Feb</p>
+            </div>
+
+          </div>
+
+          <div class="p-6">
+
+            <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
+              Food Science
+            </span>
+
+            <h3 class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
+              Is Fast Food Getting Healthier? Here's What We Found
+            </h3>
+
+            <div class="flex items-center gap-5 text-gray-400 text-sm mt-5">
+
+              <span>👤 Sarah Grain</span>
+
+              <span>💬 18 Comments</span>
+
+            </div>
+
+            <a href="#" class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
+              Read More →
+            </a>
+
+          </div>
+
+        </article>
+
+        <!-- Blog Card -->
+        <article
+          class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 group">
+
+          <div class="relative overflow-hidden">
+
+            <img src="images/blog-3.jpg" class="w-full h-64 object-cover group-hover:scale-110 duration-500">
+
+            <div class="absolute top-5 left-5 bg-red-600 text-white rounded-xl px-4 py-2 text-center shadow-lg">
+              <h3 class="text-xl font-bold leading-none">05</h3>
+              <p class="uppercase text-xs mt-1">Jan</p>
+            </div>
+
+          </div>
+
+          <div class="p-6">
+
+            <span class="uppercase text-red-500 text-xs font-bold tracking-widest">
+              Recipes
+            </span>
+
+            <h3 class="text-2xl font-bold text-gray-900 mt-3 group-hover:text-red-500 duration-300">
+              Innovative Hot Chickpeas Flake Crackin' Recipe at Home
+            </h3>
+
+            <div class="flex items-center gap-5 text-gray-400 text-sm mt-5">
+
+              <span>👤 Chef Marcus</span>
+
+              <span>💬 32 Comments</span>
+
+            </div>
+
+            <a href="#" class="inline-flex items-center mt-6 font-semibold text-red-500 hover:gap-3 gap-2 duration-300">
+              Read More →
+            </a>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- ================= Newsletter Section ================= -->
+  <section class="relative py-24 overflow-hidden bg-gradient-to-r from-red-600 via-red-700 to-red-900">
 
     <!-- Pattern -->
     <div class="absolute inset-0 opacity-10"
-        style="background-image:radial-gradient(circle,rgba(255,255,255,.35) 1px,transparent 1px);background-size:60px 60px;">
+      style="background-image:radial-gradient(circle,rgba(255,255,255,.35) 1px,transparent 1px);background-size:60px 60px;">
     </div>
 
     <div class="relative max-w-4xl mx-auto px-5 text-center">
 
-        <!-- Heading -->
-        <p class="text-orange-200 italic text-lg font-medium">
-            Stay Connected
-        </p>
+      <!-- Heading -->
+      <p class="text-orange-200 italic text-lg font-extrabold">
+        Stay Connected
+      </p>
 
-        <h2 class="text-4xl md:text-5xl font-bold text-white mt-3">
-            Subscribe &
-            <span class="text-yellow-400">
-                Get Exclusive Deals
-            </span>
-        </h2>
+      <h2 class="text-4xl md:text-5xl font-griffy text-white mt-3">
+        Subscribe &
+        <span class="text-yellow-400">
+          Get Exclusive Deals
+        </span>
+      </h2>
 
-        <p class="text-red-100 mt-6 text-lg max-w-2xl mx-auto">
-            Get 15% off your first order plus early access to new menu items
-            and exclusive restaurant offers.
-        </p>
+      <p class="text-red-100 mt-6 text-lg max-w-2xl mx-auto">
+        Get 15% off your first order plus early access to new menu items
+        and exclusive restaurant offers.
+      </p>
 
-        <!-- Form -->
-        <form
-            class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+      <!-- Form -->
+      <form class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
 
-            <input
-                type="email"
-                placeholder="Enter your email address..."
-                class="w-full sm:w-[500px] h-16 rounded-full px-7 text-gray-700 outline-none border-2 border-transparent focus:border-yellow-400 shadow-lg">
+        <input type="email" placeholder="Enter your email address..."
+          class="w-full sm:w-[500px] h-16 rounded-full px-7 text-gray-700 outline-none border-2 border-transparent focus:border-yellow-400 shadow-lg">
 
-            <button
-                class="h-16 px-10 rounded-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold transition duration-300 shadow-xl hover:scale-105">
+        <button
+          class="h-16 px-10 rounded-full bg-yellow-400 hover:bg-yellow-500 text-black font-bold transition duration-300 shadow-xl hover:scale-105">
 
-                ✈ Subscribe
+          ✈ Subscribe
 
-            </button>
+        </button>
 
-        </form>
+      </form>
 
-        <!-- Bottom Text -->
-        <p class="text-red-200 text-sm mt-5">
-            🔒 No spam, unsubscribe anytime.
-        </p>
+      <!-- Bottom Text -->
+      <p class="text-red-200 text-sm mt-5">
+        🔒 No spam, unsubscribe anytime.
+      </p>
 
     </div>
 
-</section>
-<!-- ================= Contact Section ================= -->
-<section class="py-24 bg-[#FFF8F2]">
+  </section>
+  <!-- ================= Contact Section ================= -->
+  <section id="contact" class="py-24 bg-[#FFF8F2]">
     <div class="max-w-7xl mx-auto px-5">
 
-        <!-- Heading -->
-        <div class="text-center mb-16">
+      <!-- Heading -->
+      <div class="text-center mb-16">
 
-            <p class="text-red-500 italic text-lg font-medium">
-                Get In Touch
-            </p>
+        <p class="text-red-500 italic text-lg font-extrabold">
+          Get In Touch
+        </p>
 
-            <h2 class="text-4xl md:text-5xl font-bold mt-2">
-                Contact
-                <span class="text-red-500">Us</span>
-            </h2>
+        <h2 class="text-4xl md:text-5xl font-griffy mt-2">
+          Contact
+          <span class="text-red-500">Us</span>
+        </h2>
 
-            <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
+        <div class="w-16 h-1 bg-orange-500 rounded-full mx-auto mt-4"></div>
 
-            <p class="max-w-xl mx-auto mt-6 text-gray-500 leading-8">
-                Have a question, feedback, or want to plan a special event?
-                We'd love to hear from you.
-            </p>
+        <p class="max-w-xl mx-auto mt-6 text-gray-500 leading-8">
+          Have a question, feedback, or want to plan a special event?
+          We'd love to hear from you.
+        </p>
 
-        </div>
+      </div>
 
-        <!-- Content -->
-        <div class="grid lg:grid-cols-3 gap-8">
+      <!-- Content -->
+      <div class="grid lg:grid-cols-3 gap-8">
 
-            <!-- Left Card -->
-            <div class="bg-[#1F1F1F] rounded-3xl p-8 text-white">
+        <!-- Left Card -->
+        <div class="bg-[#1F1F1F] rounded-3xl p-8 text-white">
 
-                <h3 class="text-3xl font-bold">
-                    Let's Talk
-                </h3>
+          <h3 class="text-3xl font-bold">
+            Let's Talk
+          </h3>
 
-                <p class="text-gray-400 mt-3 mb-8">
-                    We typically respond within 2 hours during business hours.
+          <p class="text-gray-400 mt-3 mb-8">
+            We typically respond within 2 hours during business hours.
+          </p>
+
+          <div class="space-y-6">
+
+            <!-- Address -->
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                📍
+              </div>
+
+              <div>
+                <p class="uppercase text-xs text-gray-400 font-semibold">
+                  Address
                 </p>
 
-                <div class="space-y-6">
-
-                    <!-- Address -->
-                    <div class="flex gap-4">
-
-                        <div
-                            class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-                            📍
-                        </div>
-
-                        <div>
-                            <p class="uppercase text-xs text-gray-400 font-semibold">
-                                Address
-                            </p>
-
-                            <p class="mt-1 leading-7">
-                                42 Flavor Street,
-                                Manhattan,<br>
-                                New York, NY 10001
-                            </p>
-                        </div>
-
-                    </div>
-
-                    <!-- Phone -->
-                    <div class="flex gap-4">
-
-                        <div
-                            class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-                            📞
-                        </div>
-
-                        <div>
-
-                            <p class="uppercase text-xs text-gray-400 font-semibold">
-                                Phone
-                            </p>
-
-                            <p class="mt-1">
-                                +1 (800) 123-4567
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Email -->
-                    <div class="flex gap-4">
-
-                        <div
-                            class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-                            ✉️
-                        </div>
-
-                        <div>
-
-                            <p class="uppercase text-xs text-gray-400 font-semibold">
-                                Email
-                            </p>
-
-                            <p class="mt-1">
-                                hello@sarabfood.com
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                    <!-- Working Hours -->
-                    <div class="flex gap-4">
-
-                        <div
-                            class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
-                            🕒
-                        </div>
-
-                        <div>
-
-                            <p class="uppercase text-xs text-gray-400 font-semibold">
-                                Working Hours
-                            </p>
-
-                            <p class="mt-1">
-                                Wed - Sun: 9 AM - 11 PM
-                            </p>
-
-                        </div>
-
-                    </div>
-
-                </div>
-
-                <!-- Social Icons -->
-                <div class="flex gap-3 mt-10">
-
-                    <a href="#"
-                        class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-
-                    <a href="#"
-                        class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-
-                    <a href="#"
-                        class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-
-                    <a href="#"
-                        class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
-
-                </div>
+                <p class="mt-1 leading-7">
+                  42 Flavor Street,
+                  Manhattan,<br>
+                  New York, NY 10001
+                </p>
+              </div>
 
             </div>
 
-            <!-- Right Form -->
-            <div class="lg:col-span-2 bg-white rounded-3xl shadow-xl p-8">
+            <!-- Phone -->
+            <div class="flex gap-4">
 
-                <form class="grid md:grid-cols-2 gap-6">
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                📞
+              </div>
 
-                    <div>
-                        <label class="text-sm font-semibold">
-                            Your Name *
-                        </label>
+              <div>
 
-                        <input type="text"
-                            placeholder="John Doe"
-                            class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-                    </div>
+                <p class="uppercase text-xs text-gray-400 font-semibold">
+                  Phone
+                </p>
 
-                    <div>
-                        <label class="text-sm font-semibold">
-                            Email Address *
-                        </label>
+                <p class="mt-1">
+                  +1 (800) 123-4567
+                </p>
 
-                        <input type="email"
-                            placeholder="you@email.com"
-                            class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-                    </div>
-
-                    <div>
-                        <label class="text-sm font-semibold">
-                            Phone Number
-                        </label>
-
-                        <input type="tel"
-                            placeholder="+1 (800) 000-0000"
-                            class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-                    </div>
-
-                    <div>
-                        <label class="text-sm font-semibold">
-                            Subject *
-                        </label>
-
-                        <select
-                            class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
-
-                            <option>General Inquiry</option>
-                            <option>Reservation</option>
-                            <option>Feedback</option>
-                            <option>Support</option>
-
-                        </select>
-                    </div>
-
-                    <div class="md:col-span-2">
-
-                        <label class="text-sm font-semibold">
-                            Message *
-                        </label>
-
-                        <textarea rows="6"
-                            placeholder="Write your message here..."
-                            class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500"></textarea>
-
-                    </div>
-
-                    <div class="md:col-span-2">
-
-                        <button
-                            class="px-10 py-4 rounded-full bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold hover:scale-105 transition shadow-lg shadow-red-300">
-
-                            <i class="fa-solid fa-paper-plane mr-2"></i>
-                            Send Message
-
-                        </button>
-
-                    </div>
-
-                </form>
+              </div>
 
             </div>
+
+            <!-- Email -->
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                ✉️
+              </div>
+
+              <div>
+
+                <p class="uppercase text-xs text-gray-400 font-semibold">
+                  Email
+                </p>
+
+                <p class="mt-1">
+                  hello@sarabfood.com
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- Working Hours -->
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600 flex items-center justify-center text-xl">
+                🕒
+              </div>
+
+              <div>
+
+                <p class="uppercase text-xs text-gray-400 font-semibold">
+                  Working Hours
+                </p>
+
+                <p class="mt-1">
+                  Wed - Sun: 9 AM - 11 PM
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Social Icons -->
+          <div class="flex gap-3 mt-10">
+
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-gray-700 hover:bg-red-600 flex items-center justify-center transition">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
+
+          </div>
 
         </div>
 
+        <!-- Right Form -->
+        <div class="lg:col-span-2 bg-white rounded-3xl shadow-xl p-8">
+
+          <form class="grid md:grid-cols-2 gap-6">
+
+            <div>
+              <label class="text-sm font-semibold">
+                Your Name *
+              </label>
+
+              <input type="text" placeholder="John Doe"
+                class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold">
+                Email Address *
+              </label>
+
+              <input type="email" placeholder="you@email.com"
+                class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold">
+                Phone Number
+              </label>
+
+              <input type="tel" placeholder="+1 (800) 000-0000"
+                class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+            </div>
+
+            <div>
+              <label class="text-sm font-semibold">
+                Subject *
+              </label>
+
+              <select class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500">
+
+                <option>General Inquiry</option>
+                <option>Reservation</option>
+                <option>Feedback</option>
+                <option>Support</option>
+
+              </select>
+            </div>
+
+            <div class="md:col-span-2">
+
+              <label class="text-sm font-semibold">
+                Message *
+              </label>
+
+              <textarea rows="6" placeholder="Write your message here..."
+                class="w-full mt-2 border rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-red-500"></textarea>
+
+            </div>
+
+            <div class="md:col-span-2">
+
+              <button
+                class="px-10 py-4 rounded-full bg-gradient-to-r from-red-600 to-red-700 text-white font-semibold hover:scale-105 transition shadow-lg shadow-red-300">
+
+                <i class="fa-solid fa-paper-plane mr-2"></i>
+                Send Message
+
+              </button>
+
+            </div>
+
+          </form>
+
+        </div>
+
+      </div>
+
     </div>
-</section>
-<!-- ================= Footer ================= -->
-<footer class="bg-[#1F1F1F] text-gray-400">
+  </section>
+
+  <!-- ================= Footer ================= -->
+  <footer class="bg-[#1F1F1F] text-gray-400">
 
     <!-- Top -->
     <div class="max-w-7xl mx-auto px-6 py-20">
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
 
-            <!-- Logo -->
-            <div>
+        <!-- Logo -->
+        <div>
 
-                <h2 class="text-5xl font-bold text-white">
-                    Sar<span class="text-red-600">ab</span>
-                </h2>
+          <h2 class="text-5xl font-bold text-white">
+            Sar<span class="text-red-600">ab</span>
+          </h2>
 
-                <p class="mt-6 leading-8">
-                    We bring the world's finest flavors together in a fast,
-                    friendly, and affordable experience.
-                    Every meal crafted with love.
-                </p>
+          <p class="mt-6 leading-8">
+            We bring the world's finest flavors together in a fast,
+            friendly, and affordable experience.
+            Every meal crafted with love.
+          </p>
 
-                <!-- Social -->
-                <div class="flex gap-3 mt-8">
+          <!-- Social -->
+          <div class="flex gap-3 mt-8">
 
-                    <a href="#" class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
 
-                    <a href="#" class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
 
-                    <a href="#" class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
 
-                    <a href="#" class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
-                        <i class="fa-brands fa-youtube"></i>
-                    </a>
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
+              <i class="fa-brands fa-youtube"></i>
+            </a>
 
-                    <a href="#" class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
-                        <i class="fa-brands fa-tiktok"></i>
-                    </a>
+            <a href="#"
+              class="w-11 h-11 rounded-lg bg-[#2C2C2C] hover:bg-red-600 flex items-center justify-center duration-300">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
 
-                </div>
-
-            </div>
-
-            <!-- Quick Links -->
-            <div>
-
-                <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
-                    Quick Links
-                    <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
-                </h3>
-
-                <ul class="space-y-4 mt-8">
-
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Home</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ About Us</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Our Menu</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Reservation</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Blog</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Contact</a></li>
-
-                </ul>
-
-            </div>
-
-            <!-- Menu -->
-            <div>
-
-                <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
-                    Our Menu
-                    <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
-                </h3>
-
-                <ul class="space-y-4 mt-8">
-
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Burgers</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Pizza</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Fried Chicken</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Wraps & Rolls</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Pasta</a></li>
-                    <li><a href="#" class="hover:text-red-500 duration-300">➜ Desserts</a></li>
-
-                </ul>
-
-            </div>
-
-            <!-- Contact -->
-            <div>
-
-                <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
-                    Get In Touch
-                    <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
-                </h3>
-
-                <div class="space-y-6 mt-8">
-
-                    <div class="flex gap-4">
-
-                        <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
-                            <i class="fa-solid fa-location-dot"></i>
-                        </div>
-
-                        <div>
-                            <h4 class="text-white font-semibold">Address</h4>
-                            <p>42 Flavor Street, Manhattan, NY 10001</p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex gap-4">
-
-                        <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
-                            <i class="fa-solid fa-phone"></i>
-                        </div>
-
-                        <div>
-                            <h4 class="text-white font-semibold">Phone</h4>
-                            <p>+1 (800) 123-4567</p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex gap-4">
-
-                        <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
-                            <i class="fa-solid fa-envelope"></i>
-                        </div>
-
-                        <div>
-                            <h4 class="text-white font-semibold">Email</h4>
-                            <p>hello@sarabfood.com</p>
-                        </div>
-
-                    </div>
-
-                    <div class="flex gap-4">
-
-                        <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
-                            <i class="fa-solid fa-clock"></i>
-                        </div>
-
-                        <div>
-                            <h4 class="text-white font-semibold">Hours</h4>
-                            <p>Wed - Sun : 09 AM - 11 PM</p>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
+          </div>
 
         </div>
+
+        <!-- Quick Links -->
+        <div>
+
+          <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
+            Quick Links
+            <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
+          </h3>
+
+          <ul class="space-y-4 mt-8">
+
+            <li><a href="#home" class="hover:text-red-500 duration-300">➜ Home</a></li>
+            <li><a href="#about" class="hover:text-red-500 duration-300">➜ About Us</a></li>
+            <li><a href="#menu" class="hover:text-red-500 duration-300">➜ Our Menu</a></li>
+            <li><a href="#res" class="hover:text-red-500 duration-300">➜ Reservation</a></li>
+            <li><a href="#revu" class="hover:text-red-500 duration-300">➜ Blog</a></li>
+            <li><a href="#contact" class="hover:text-red-500 duration-300">➜ Contact</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Menu -->
+        <div>
+
+          <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
+            Our Menu
+            <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
+          </h3>
+
+          <ul class="space-y-4 mt-8">
+
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Burgers</a></li>
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Pizza</a></li>
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Fried Chicken</a></li>
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Wraps & Rolls</a></li>
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Pasta</a></li>
+            <li><a href="#" class="hover:text-red-500 duration-300">➜ Desserts</a></li>
+
+          </ul>
+
+        </div>
+
+        <!-- Contact -->
+        <div>
+
+          <h3 class="text-white text-2xl font-bold mb-6 relative inline-block">
+            Get In Touch
+            <span class="absolute left-0 -bottom-2 w-20 h-0.5 bg-red-500"></span>
+          </h3>
+
+          <div class="space-y-6 mt-8">
+
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold">Address</h4>
+                <p>42 Flavor Street, Manhattan, NY 10001</p>
+              </div>
+
+            </div>
+
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold">Phone</h4>
+                <p>+1 (800) 123-4567</p>
+              </div>
+
+            </div>
+
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold">Email</h4>
+                <p>hello@sarabfood.com</p>
+              </div>
+
+            </div>
+
+            <div class="flex gap-4">
+
+              <div class="w-12 h-12 rounded-xl bg-red-600/20 text-red-500 flex items-center justify-center">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+
+              <div>
+                <h4 class="text-white font-semibold">Hours</h4>
+                <p>Wed - Sun : 09 AM - 11 PM</p>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
 
     <!-- Bottom -->
     <div class="border-t border-gray-800">
 
-        <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
 
-            <p class="text-center md:text-left">
-                © 2026
-                <span class="text-red-500 font-semibold">
-                    Sarab Restaurant
-                </span>
-                . All Rights Reserved.
-            </p>
+        <p class="text-center md:text-left">
+          © 2026
+          <span class="text-red-500 font-semibold">
+            Sarab Restaurant
+          </span>
+          . All Rights Reserved.
+        </p>
 
-            <div class="flex gap-6">
+        <div class="flex gap-6">
 
-                <a href="#" class="hover:text-red-500 duration-300">
-                    Privacy Policy
-                </a>
+          <a href="#" class="hover:text-red-500 duration-300">
+            Privacy Policy
+          </a>
 
-                <a href="#" class="hover:text-red-500 duration-300">
-                    Terms
-                </a>
+          <a href="#" class="hover:text-red-500 duration-300">
+            Terms
+          </a>
 
-                <a href="#" class="hover:text-red-500 duration-300">
-                    Cookies
-                </a>
-
-            </div>
+          <a href="#" class="hover:text-red-500 duration-300">
+            Cookies
+          </a>
 
         </div>
+
+      </div>
 
     </div>
 
     <!-- Scroll To Top -->
     <a href="#"
-        class="fixed bottom-6 right-6 w-14 h-14 rounded-2xl bg-red-600 hover:bg-red-700 text-white flex items-center justify-center shadow-2xl duration-300">
+      class="fixed bottom-6 right-6 w-14 h-14 rounded-2xl bg-red-600 hover:bg-red-700 text-white flex items-center justify-center shadow-2xl duration-300">
 
-        <i class="fa-solid fa-arrow-up"></i>
+      <i class="fa-solid fa-arrow-up"></i>
 
     </a>
 
-</footer>
+  </footer>
 
 
 
